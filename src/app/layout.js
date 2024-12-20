@@ -1,6 +1,6 @@
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-import Nabbar from "@/components/Nabbar";
+import Nabbar from "@/components/Navbar";
 
 
 const montserrat = Montserrat({weight:'500', subsets: ["latin"]});

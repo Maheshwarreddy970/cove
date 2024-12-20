@@ -23,7 +23,7 @@ const navitems = [
 ]
 export default function Nabbar() {
     return (
-        <nav className=' w-full fixed top-0 ' >
+        <nav className=' z-50  w-full absolute top-0 ' >
             <div className='max-w-7xl w-full  py-5 px-5 mx-auto flex justify-between items-center'>
                 <div>
                     <Image alt='logo' className=' h-[2rem] w-[7.6rem] w-' src={logo}></Image>
