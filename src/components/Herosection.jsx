@@ -26,24 +26,24 @@ export default function Herosection() {
                     <p className=' max-w-[40rem] font-medium text-lg text-center'>The only gamified finance app for young adults that makes saving and investing simple, rewarding, and fun.</p>
                 </div>
                 <div className=' mt-14 relative z-30'>
-                    <div className='max-w-5xl z-30  p-6 mx-auto border  rounded-full bg-black/20 border-white/50 flex backdrop-blur-[1px]  '>
+                    <div className='max-w-[65rem] z-30  p-6 mx-auto border  rounded-full bg-black/20 border-white/50 flex backdrop-blur-[1px]  '>
                         <div className=' flex gap-3 z-30'>
                             <div className=' size-[42px]'>
                                 <Image src={bananatree} alt='bananatree' width={42} height={42} className=' '></Image>
                             </div>
-                            <p className={` text-white text-base leading-5  ${montserrat2.className}`}>Visualize your savings as a customizable virtual island</p>
+                            <p className={` text-white text-base leading-5 font-medium`}>Visualize your savings as a customizable virtual island</p>
                         </div>
                         <div className=' flex gap-3 z-30'>
                             <div className=' size-[42px] relative n  '>
                                 <Image src={newsboard} alt='newsboard' width={42} height={42} className='size-[42px] '></Image>
                             </div>
-                            <p className={` text-white text-base leading-5  ${montserrat2.className}`}>Visualize your savings as a customizable virtual island</p>
+                            <p className={` text-white text-base leading-5 font-medium`}>Get started in minutes with an intuitive, user-friendly design</p>
                         </div>
                         <div className=' flex gap-3 z-30'>
                             <div className=' size-[42px]  '>
                                 <Image src={vault} alt='vault' width={42} height={42} className=' size-[42px]'></Image>
                             </div>
-                            <p className={` text-white z-30 text-base leading-5  ${montserrat2.className}`}>Visualize your savings as a customizable virtual island</p>
+                            <p className={` text-white z-30 text-base leading-5 font-medium`}>Earn competitive APY while enjoying a stress-free experience</p>
                         </div>
                     </div>
                 </div>
@@ -55,9 +55,9 @@ export default function Herosection() {
                     <p className='font-semibold text-sm z-30 text-white text-center'>Protected by FDIC and SIPC insurance for peace of mind.</p>
                 </div>
                 <Image
-                    className=' absolute bottom-0 w-full  h-[39.1875rem] '
+                    className=' absolute bottom-0 w-full  h-[42rem] '
                     style={{
-                        maskImage: `linear-gradient(to bottom, transparent, black 10%)`,
+                        maskImage: `linear-gradient(to bottom, transparent, black 12%)`,
                     }}
                     src={ocean}></Image>
                 <Image src={leftsideislandherosection} alt='leftsideislandherosection' className=' absolute   w-[75rem] h-[56.03rem] -bottom-[14rem] -left-[35rem] '></Image>
