@@ -28,7 +28,7 @@ export default function Nabbar() {
                 <div>
                     <Image alt='logo' className=' h-[2rem] w-[7.6rem] w-' src={logo}></Image>
                 </div>
-                <div className='flex gap-6'>
+                <div className=' hidden md:flex gap-6'>
                     {
                         navitems.map((item, index) => (
                             <a href={item.href} key={index}>
@@ -38,7 +38,7 @@ export default function Nabbar() {
                         )
                     }
                 </div>
-                <button className=' bg-black gap-2 rounded-[144px] py-2.5 px-8 text-lg text-white font-bold'>
+                <button className='hidden md:block bg-black gap-2 rounded-[144px] py-2.5 px-8 text-lg text-white font-bold'>
                     Get the App
                 </button>
             </div>
