@@ -9,7 +9,7 @@ import OldNew from "@/components/OldNew";
 
 export default function Home() {
   return (
-    <main className=" bg-[#FFFFF0] text-black">
+    <main className="">
       <Herosection></Herosection>
       <Logosection></Logosection>
       <OldNew></OldNew>
