@@ -5,7 +5,6 @@ import bananatree from '@/../public/BananaTreeCrystal.png'
 import newsboard from '@/../public/NewsBoard.png'
 import vault from '@/../public/Vault_2.png'
 import phones from '@/../public/herophone.png'
-import lights from '@/../public/lights.png'
 import ocean from '@/../public/ocean.png'
 import leftsideislandherosection from '@/../public/leftsideislandherosection.png'
 

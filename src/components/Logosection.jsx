@@ -11,7 +11,7 @@ export default function Logosection() {
                     <icons.evernote></icons.evernote>
                 </div>
                 <div>
-                    <icons.paypal></icons.paypal>
+                    <icons.paypal2></icons.paypal2>
                 </div>
                 <div>
                     <icons.shpofy></icons.shpofy>
