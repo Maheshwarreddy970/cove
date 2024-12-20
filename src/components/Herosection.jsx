@@ -9,6 +9,7 @@ import ocean from '@/../public/ocean.png'
 import leftsideislandherosection from '@/../public/leftsideislandherosection.png'
 import rightsideislandherosection from '@/../public/rightsideislandherosection.png'
 import mainIslandLayer2 from '@/../public/mainIslandLayer 2.png'
+import lights from '@/../public/lights.png'
 
 const montserrat = Montserrat({ weight: '700', subsets: ["latin"] });
 const montserrat2 = Montserrat({ weight: '600', subsets: ["latin"] });
@@ -16,7 +17,8 @@ const montserrat2 = Montserrat({ weight: '600', subsets: ["latin"] });
 export default function Herosection() {
     return (
         <section className=' top-0 bg-gradient-to-t  relative from-[#AFE0FF] to-[#82DCFF] pt-32'>
-            {/* <Image src={lights} alt='lights' className='z-50 absolute  w-screen top-[-27.625rem] h-full left-0 '></Image> */}
+
+            <Image src={lights} alt='lights' className='z-50 absolute  w-screen top-[-27.625rem] h-full left-0 '></Image> 
             <div className=' relative overflow-hidden'>
                 <div className=' z-30 flex justify-center mb-7'>
                     <p className={` ${montserrat2.className} rounded-[144px] bg-white/30 border border-[#95D0DF] pt-[6px] pr-4 pb-[6px] pl-4 gap-2 font-semibold text-[18px] leading-[21px] text-[#004248] uppercase`}>Finance for next generation</p>
