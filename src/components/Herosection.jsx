@@ -7,6 +7,8 @@ import vault from '@/../public/Vault_2.png'
 import phones from '@/../public/herophone.png'
 import ocean from '@/../public/ocean.png'
 import leftsideislandherosection from '@/../public/leftsideislandherosection.png'
+import rightsideislandherosection from '@/../public/rightsideislandherosection.png'
+import mainIslandLayer2 from '@/../public/mainIslandLayer 2.png'
 
 const montserrat = Montserrat({ weight: '700', subsets: ["latin"] });
 const montserrat2 = Montserrat({ weight: '600', subsets: ["latin"] });
@@ -23,8 +25,8 @@ export default function Herosection() {
                     <h1 className={` max-w-6xl px-8 tracking-[-0.04em] font-bold text-6xl text-black leading-[72px]  text-center ${montserrat.className}`}>How to grow your savings without the hassle of spreadsheets</h1>
                     <p className=' max-w-[40rem] font-medium text-lg text-center'>The only gamified finance app for young adults that makes saving and investing simple, rewarding, and fun.</p>
                 </div>
-                <div className=' mt-14 z-30'>
-                    <div className='max-w-6xl z-30  p-6 mx-auto border rounded-full bg-black/20 border-white/50 flex backdrop-blur-[19.5px]  '>
+                <div className=' mt-14 relative z-30'>
+                    <div className='max-w-5xl z-30  p-6 mx-auto border  rounded-full bg-black/20 border-white/50 flex backdrop-blur-[1px]  '>
                         <div className=' flex gap-3 z-30'>
                             <div className=' size-[42px]'>
                                 <Image src={bananatree} alt='bananatree' width={42} height={42} className=' '></Image>
@@ -55,12 +57,15 @@ export default function Herosection() {
                 <Image
                     className=' absolute bottom-0 w-full  h-[39.1875rem] '
                     style={{
-                        maskImage: `linear-gradient(to bottom, transparent, black 20%)`,
+                        maskImage: `linear-gradient(to bottom, transparent, black 10%)`,
                     }}
                     src={ocean}></Image>
-                <Image src={leftsideislandherosection} className=' absolute   w-[75rem] h-[56.03rem] -bottom-[10rem] -left-[35rem] '></Image>
+                <Image src={leftsideislandherosection} alt='leftsideislandherosection' className=' absolute   w-[75rem] h-[56.03rem] -bottom-[14rem] -left-[35rem] '></Image>
+                <Image src={rightsideislandherosection} alt='rightsideislandherosection' className=' absolute w-[87rem] h-[52rem]  -bottom-[15rem] -right-[50rem] '></Image>
+                <Image src={mainIslandLayer2} className=' absolute   w-[26.9375rem] h-[13.0625rem] top-[32%] -left-48 '></Image>
+                <Image src={mainIslandLayer2} className=' absolute  w-[26.9375rem] h-[13.0625rem] top-[32%] -right-48'></Image>
             </div>
-            <Image src={phones} alt='phones' className=' left-1/2 translate-x-[-50%] absolute -bottom-[21rem] z-30 w-[47rem] h-[43rem]'></Image>
+            <Image src={phones} alt='phones' className=' left-1/2 translate-x-[-50%] absolute -bottom-[21rem] z-30 w-[48rem] h-[43rem]'></Image>
         </section>
     )
 }
