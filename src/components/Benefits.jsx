@@ -44,9 +44,9 @@ export default function Benefits() {
             <p className=' text-lg font-medium opacity-70'>Connect with other savers through leaderboards, quests, and a dedicated Discord community. Share tips, find motivation, and celebrate milestones with friends.</p>
           </div>
           <div className='w-[18.4375rem] relative sm:w-[22rem]  h-[46.875rem] border-8 border-black/20 mt-6 lg:mt-14 rounded-[1.9rem]'>
-            <Image src={gabegdev} alt='gabegdev' className='z-40 absolute top-[18%] scale-[1.3]'></Image>
+            <Image src={gabegdev} alt='gabegdev' className='z-40 absolute sm:top-[18%] top-[16%] scale-[1.3]'></Image>
             <Image src={blueborder} alt='blueborder' className=' absolute top-[22%] scale-[0.95]'></Image>
-            <icons.bluelightray className="absolute top-[25%] scale-[0.97] -left-10"></icons.bluelightray>
+            <icons.bluelightray className="absolute top-[23%]  sm:top-[25%] scale-[0.8] sm:scale-[0.97] -left-[4.5rem] sm:-left-10"></icons.bluelightray>
             <Image className='rounded-[1.6rem] h-full w-full ' alt='communityimage2' src={image3} ></Image>
           </div>
         </div>
@@ -57,13 +57,13 @@ export default function Benefits() {
           </div>
           <div className=' p-2 bg-black/20 mt-6 lg:mt-14 rounded-t-[1.9rem]'>
             <div className=' relative flex flex-col items-center  w-[18.4375rem] sm:w-[22rem] h-[46.875rem] bg-[#232526]  rounded-t-[1.9rem] '  >
-              <div className=' flex gap-4 sm:gap-6 absolute left-[-25%] sm:left-[-30%] top-10 '>
+              <div className=' flex gap-4 sm:gap-6 absolute left-[-18%] sm:left-[-30%] top-10 '>
                 <Image className=' w-[5.479rem] h-[5.479rem] sm:w-[7.125rem] sm:h-[7.125rem] ' src={stripeicon}></Image>
                 <Image className=' w-[5.479rem] h-[5.479rem] sm:w-[7.125rem] sm:h-[7.125rem] ' src={paypalicon}></Image>
                 <Image className=' w-[5.479rem] h-[5.479rem] sm:w-[7.125rem] sm:h-[7.125rem] ' src={framericon}></Image>
                 <Image className=' w-[5.479rem] h-[5.479rem] sm:w-[7.125rem] sm:h-[7.125rem] ' src={vectior}></Image>
               </div>
-              <Image src={image4} className='w-[13.29rem] h-[3.459rem]  sm:w-[17.125rem] mt-48 sm:h-[4.5rem]'></Image>
+              <Image src={image4} className='w-[13.29rem] h-[3.459rem]  sm:w-[17.125rem] mt-36 sm:mt-44 sm:h-[4.5rem]'></Image>
             </div>
           </div>
         </div>
