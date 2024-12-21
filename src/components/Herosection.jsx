@@ -26,7 +26,7 @@ export default function Herosection() {
                             <p className={` text-white text-base leading-5 font-medium`}>Visualize your savings as a customizable virtual island</p>
                         </div>
                         <div className=' flex py-4  px-6 lg:py-6 z-30 gap-2'>
-                            <div className='w-[70px] h-[38px] relative mx-2.5  '>
+                            <div className='w-[70px] h-[38px] relative  '>
                                 <img src={'/NewsBoard.png'} alt='newsboard' width={42} height={42} className=' w-[70px] h-[38px] '></img>
                             </div>
                             <p className={` text-white text-base leading-5 font-medium`}>Get started in minutes with an intuitive, user-friendly design</p>
@@ -51,7 +51,7 @@ export default function Herosection() {
                 >
                 </div>
                 <img
-                    className=' absolute bottom-0 w-full  h-[49rem] md:h-[43rem] brightness-105'
+                    className=' absolute bottom-0 w-full  h-[53rem] md:h-[43rem] brightness-105'
                     style={{
                         maskImage: `linear-gradient(to bottom, transparent, black 19%)`,
                     }}

@@ -1,7 +1,7 @@
 'use client'
 
 import Image from 'next/image'
-import React, { useState } from 'react'
+import React, { useEffect, useState } from 'react'
 import BonsaiTree from '@/../public/BeachTowel.png'
 import Bush from '@/../public/Bush 4k Asset 1.png'
 import { Advent_Pro } from 'next/font/google';
@@ -13,17 +13,17 @@ const adventpro = Advent_Pro({ weight: '700', subsets: ["latin"] });
 export default function Overview() {
   const [activeImage, setActiveImage] = useState(0)
 
-  // useEffect(() => {
-  //   const intervalId = setInterval(() => {
-  //     setActiveImage((prevActiveImage) => {
-  //       return (prevActiveImage + 1) % 3;
-  //     });
-  //   }, 9000)
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setActiveImage((prevActiveImage) => {
+        return (prevActiveImage + 1) % 3;
+      });
+    }, 9000)
 
-  //   return () => {
-  //     clearInterval(intervalId)
-  //   }
-  // }, [])
+    return () => {
+      clearInterval(intervalId)
+    }
+  }, [])
 
   return (
     <section className={` bg-[#232526] text-white py-24 lg:px-5 overflow-hidden`}>
@@ -58,12 +58,12 @@ export default function Overview() {
                       initial={{ height: 0 }}
                       animate={{ height: "100%" }}
                       exit={{ height: 0 }}
-                      transition={{ ease: "easeInOut", duration: 0.5 }}
+                      transition={{ ease: "linear", duration: 0.5 }}
                       className=" h-full w-full overflow-hidden  flex justify-center"
                     >
                       <motion.div
-                        initial={{ opacity: 0, y: 150 }}
-                        animate={{ opacity: 1, y: 0 }}
+                        initial={{ y: 150 }}
+                        animate={{ y: 0 }}
                         transition={{ duration: 1, ease: 'easeIn', type: 'spring', stiffness: 100 }}
                       >
                         <img src={'/howitworksighupimage.png'} alt='howitworksighupimage' className=' w-[25.38rem] h-[55.02rem] mt-16 ' />
@@ -94,12 +94,12 @@ export default function Overview() {
                       initial={{ height: 0 }}
                       animate={{ height: "100%" }}
                       exit={{ height: 0 }}
-                      transition={{ ease: "easeInOut", duration: 0.5 }}
+                      transition={{ ease: "linear", duration: 0.5, type: 'spring', stiffness: 100 }}
                       className=" h-full w-full overflow-hidden  flex justify-center"
                     >
                       <motion.div
-                        initial={{ opacity: 0, x: 50 }}
-                        animate={{ opacity: 1, x: 0 }}
+                        initial={{ x: 50 }}
+                        animate={{ x: 0 }}
                         transition={{ duration: 2, ease: 'easeIn', type: 'spring', stiffness: 100 }}
                       >
                         <img src={'/howitworktreadingcard.png'} alt='howitworktreadingcard' className=' h-full ' />
@@ -129,7 +129,7 @@ export default function Overview() {
                       initial={{ height: 0, opacity: 0 }}
                       animate={{ height: "100%", opacity: 1 }}
                       exit={{ height: 0, opacity: 0 }}
-                      transition={{ ease: "easeInOut", duration: 1 }}
+                      transition={{ ease: "linear", duration: 1, type: 'spring', stiffness: 100 }}
                       className=" h-full w-full overflow-hidden  flex justify-center"
                     >
                       <motion.div
