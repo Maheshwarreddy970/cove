@@ -16,7 +16,7 @@ export default function OldNew() {
       <div className=' grid grid-cols-1 md:grid-cols-2 gap-8 mt-14'>
         <div className='rounded-[0.75rem] overflow-hidden relative border pt-6 pr-10 pb-6 pl-10 gap-6 bg-[#F6F6E9] border-[#D0D0BB] w-full h-[600px] lg:h-[520px] border-t'>
           <h1 className='text-[2rem] font-bold leading-[2.6rem] tracking-[-0.02em] text-left'>Before</h1>
-          <div className=' text-[18px] font-medium leading-[28px] text-left flex flex-col gap-4  decoration-skip-ink-none'>
+          <div className=' text-[18px] mt-6 font-medium leading-[28px] text-left flex flex-col gap-4  decoration-skip-ink-none'>
             <div className=' flex gap-3 '>
               <icons.vectior></icons.vectior>
               <p className=" z-30">Tracking savings felt boring and tedious</p>
@@ -34,7 +34,7 @@ export default function OldNew() {
         </div>
         <div className='rounded-[0.75rem] overflow-hidden relative border pt-6 pr-10 pb-6 pl-10 gap-6 bg-gradient-to-br from-[#C8FFBE] to-[#5CBCCB] border-[#79B487] w-full h-[600px] lg:h-[520px] border-t'>
           <h1 className='text-[2rem] font-bold leading-[2.6rem] tracking-[-0.02em] text-left text-[#274B3F]'>After</h1>
-          <div className=' text-[18px] font-bold gap-4 flex flex-col leading-[28px] text-left text-[#274B3F]'>
+          <div className=' text-[18px] mt-6 font-bold gap-4 flex flex-col leading-[28px] text-left text-[#274B3F]'>
             <div className=' flex gap-3 '>
               <icons.vectiorfilled></icons.vectiorfilled>
               <p className=" z-30">Watch your savings grow while customizing your own island</p>
