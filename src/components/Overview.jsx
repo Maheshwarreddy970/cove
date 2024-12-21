@@ -1,11 +1,8 @@
 'use client'
 
 import Image from 'next/image'
-import React, { useEffect, useState } from 'react'
+import React, { useState } from 'react'
 import BonsaiTree from '@/../public/BeachTowel.png'
-import howitworksighupimage from '@/../public/howitworksighupimage.png'
-import howitworktreadingcard from '@/../public/howitworktreadingcard.png'
-import positivevaultscreenshot from '@/../public/Picsart_24-12-21_16-08-43-527.png'
 import Bush from '@/../public/Bush 4k Asset 1.png'
 import { Advent_Pro } from 'next/font/google';
 import { cn } from '@/lib/utils';
@@ -16,17 +13,17 @@ const adventpro = Advent_Pro({ weight: '700', subsets: ["latin"] });
 export default function Overview() {
   const [activeImage, setActiveImage] = useState(0)
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setActiveImage((prevActiveImage) => {
-        return (prevActiveImage + 1) % 3;
-      });
-    }, 9000)
+  // useEffect(() => {
+  //   const intervalId = setInterval(() => {
+  //     setActiveImage((prevActiveImage) => {
+  //       return (prevActiveImage + 1) % 3;
+  //     });
+  //   }, 9000)
 
-    return () => {
-      clearInterval(intervalId)
-    }
-  }, [])
+  //   return () => {
+  //     clearInterval(intervalId)
+  //   }
+  // }, [])
 
   return (
     <section className={` bg-[#232526] text-white py-24 lg:px-5 overflow-hidden`}>
@@ -69,7 +66,7 @@ export default function Overview() {
                         animate={{ opacity: 1, y: 0 }}
                         transition={{ duration: 1, ease: 'easeIn', type: 'spring', stiffness: 100 }}
                       >
-                        <Image src={howitworksighupimage} alt='howitworksighupimage' className=' w-[25.38rem] h-[55.02rem] mt-16 ' />
+                        <img src={'/howitworksighupimage.png'} alt='howitworksighupimage' className=' w-[25.38rem] h-[55.02rem] mt-16 ' />
                       </motion.div>
                     </motion.span>
                   )}
@@ -105,7 +102,7 @@ export default function Overview() {
                         animate={{ opacity: 1, x: 0 }}
                         transition={{ duration: 2, ease: 'easeIn', type: 'spring', stiffness: 100 }}
                       >
-                        <Image src={howitworktreadingcard} alt='howitworktreadingcard' className=' w-[95rem] h-[95rem] scale-125 -mt-20 ' />
+                        <img src={'/howitworktreadingcard.png'} alt='howitworktreadingcard' className=' h-full ' />
                       </motion.div>
                     </motion.span>
                   )}
@@ -140,7 +137,7 @@ export default function Overview() {
                         animate={{ opacity: 2, x: 0 }}
                         transition={{ duration: 1, ease: 'easeIn', type: 'spring', stiffness: 100 }}
                       >
-                        <Image src={positivevaultscreenshot} alt='positivevaultscreenshot' className=' w-[47.89rem] h-[80.21rem] scale-[1.2] -mt-56' />
+                        <img src={'/positivevaultscreenshot.png'} alt='positivevaultscreenshot.png' className=' w-[47.89rem] h-[80.21rem] scale-[1.2] -mt-56' />
                       </motion.div>
                     </motion.span>
                   )}
@@ -157,7 +154,7 @@ export default function Overview() {
                 animate={{ opacity: 1, y: 0 }}
                 transition={{ duration: 1, ease: 'easeIn', type: 'spring', stiffness: 100 }}
               >
-                <Image src={howitworksighupimage} alt='howitworksighupimage' className=' w-[25.38rem] h-[55.02rem] mt-16 ' />
+                <img src={'/howitworksighupimage.png'} alt='howitworksighupimage' className=' w-[25.38rem] h-[55.02rem] mt-16 ' />
               </motion.div>
             }
             {activeImage === 1 &&
@@ -166,7 +163,7 @@ export default function Overview() {
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 2, ease: 'easeIn', type: 'spring', stiffness: 100 }}
               >
-                <Image src={howitworktreadingcard} alt='howitworktreadingcard' className=' w-[95rem] h-[95rem] scale-125 -mt-20 ' />
+                <img src={'/howitworktreadingcard.png'} alt='howitworktreadingcard' className=' h-full  ' />
               </motion.div>
             }
 
@@ -176,7 +173,7 @@ export default function Overview() {
                 animate={{ opacity: 2, x: 0 }}
                 transition={{ duration: 1, ease: 'easeIn', type: 'spring', stiffness: 100 }}
               >
-                <Image src={positivevaultscreenshot} alt='positivevaultscreenshot' className=' w-[47.89rem] h-[80.21rem] scale-[1.2] -mt-56' />
+                <img src={'/positivevaultscreenshot.png'} alt='positivevaultscreenshot.png' className=' w-[47.89rem] h-[80.21rem] scale-[1.2] -mt-56' />
               </motion.div>
             }
 

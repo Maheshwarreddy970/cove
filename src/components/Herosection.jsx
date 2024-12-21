@@ -19,20 +19,20 @@ export default function Herosection() {
                 </div>
                 <div className=' mt-28 md:mt-14 relative z-30 px-5 xl:px-0 '>
                     <div className='max-w-[67rem] z-30   mx-auto border rounded-xl md:rounded-full bg-black/20 border-white/50 md:flex backdrop-blur-[1px]  '>
-                        <div className=' flex py-4  px-6 lg:py-6 z-30 gap-2'>
-                            <div className=' w-[70px] h-[42px]'>
-                                <img src={'/BananaTreeCrystal 3.png'} alt='bananatree' width={42} height={42} className=' w-[70px] h-[42px]'></img>
+                        <div className=' flex py-4  px-6 lg:py-6 z-30 '>
+                            <div className=' w-[70px] h-[38px] mr-3'>
+                                <img src={'/BananaTreeCrystal 3.png'} alt='bananatree' width={42} height={42} className=' w-[70px] h-[38px]'></img>
                             </div>
                             <p className={` text-white text-base leading-5 font-medium`}>Visualize your savings as a customizable virtual island</p>
                         </div>
                         <div className=' flex py-4  px-6 lg:py-6 z-30 gap-2'>
-                            <div className='w-[70px] h-[42px] relative mx-2.5  '>
-                                <img src={'/NewsBoard.png'} alt='newsboard' width={42} height={42} className=' w-[70px] h-[42px] '></img>
+                            <div className='w-[70px] h-[38px] relative mx-2.5  '>
+                                <img src={'/NewsBoard.png'} alt='newsboard' width={42} height={42} className=' w-[70px] h-[38px] '></img>
                             </div>
                             <p className={` text-white text-base leading-5 font-medium`}>Get started in minutes with an intuitive, user-friendly design</p>
                         </div>
                         <div className=' flex py-4  px-6 lg:py-6 z-30 gap-2'>
-                            <div className=' w-[90px] h-[42px]  '>
+                            <div className=' w-[90px] h-[38px]  '>
                                 <img src={'/Vault_2.png'} alt='vault' width={42} height={42} className=' w-[90px] h-[52px] -mt-2'></img>
                             </div>
                             <p className={` text-white z-30 text-base leading-5 font-medium`}>Earn competitive APY while enjoying a stress-free experience</p>
@@ -46,10 +46,14 @@ export default function Herosection() {
                 <div className=' mt-5 flex flex-col items-center gap-4 h-[18rem] md:h-[28rem] '>
                     <p className='font-semibold text-sm px-6 xl:px-0  z-30 text-white text-center'>Protected by FDIC and SIPC insurance for peace of mind.</p>
                 </div>
+                <div
+                    className=" absolute bg-white/5 top-[33%] blur-[74px] backdrop-blur-[44px] w-[110%] h-[8.875rem] left-[-1.875rem]"
+                >
+                </div>
                 <img
-                    className=' absolute bottom-0 w-full  h-[49rem] md:h-[40rem] '
+                    className=' absolute bottom-0 w-full  h-[49rem] md:h-[43rem] brightness-105'
                     style={{
-                        maskImage: `linear-gradient(to bottom, transparent, black 10%)`,
+                        maskImage: `linear-gradient(to bottom, transparent, black 19%)`,
                     }}
                     src={'/ocean.png'} alt='ocean'></img>
                 <img src={'/leftsideislandherosection.png'} alt='leftsideislandherosection' className=' absolute   w-[75rem] h-[56.03rem] -bottom-[14rem] md:-left-[35rem] sm:-left-[30rem] -left-[19rem] '></img>
