@@ -109,17 +109,17 @@ export const icons = {
     chevron: (props) => {
         return (
             <svg width="18" height="11" viewBox="0 0 18 11" className=" " fill="none" xmlns="http://www.w3.org/2000/svg">
-                <path d="M1 9.25098L8.99998 1.25098L17 9.25098" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <path d="M1 9.25098L8.99998 1.25098L17 9.25098" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
             </svg>
         )
     },
     meanuelines: (props) => {
         return (
             <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
-                <g clip-path="url(#clip0_2126_1216)">
-                    <path d="M5 16.1149H27" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M5 8.11493H27" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
-                    <path d="M5 24.1149H27" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                <g clipPath="url(#clip0_2126_1216)">
+                    <path d="M5 16.1149H27" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M5 8.11493H27" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
+                    <path d="M5 24.1149H27" stroke="black" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" />
                 </g>
                 <defs>
                     <clipPath id="clip0_2126_1216">
@@ -128,6 +128,11 @@ export const icons = {
                 </defs>
             </svg>
 
+        )
+    },
+    crossicon: (props) => {
+        return (
+            <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" class="lucide lucide-x"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
         )
     }
 }

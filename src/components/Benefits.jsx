@@ -47,14 +47,16 @@ export default function Benefits() {
             <h1 className='text-2xl font-semibold leading-[1.83rem] tracking-[-0.02em] text-left text-custom'>Direct integrations with your favorite tools</h1>
             <p className=' text-lg font-medium opacity-70'>Cove syncs seamlessly with your bank accounts, ensuring you have complete control over your money without any extra effort.</p>
           </div>
-          <div className=' relative flex flex-col items-center justify-center w-[18.4375rem] sm:w-[22rem] h-[46.875rem] bg-[#232526] border-8 border-black/20 mt-6 lg:mt-14 rounded-t-[1.9rem] '  >
-            <div className=' flex gap-4 sm:gap-6 absolute left-[-25%] sm:left-[-30%] top-10 '>
-              <Image className=' w-[5.479rem] h-[5.479rem] sm:w-[7.125rem] sm:h-[7.125rem] ' src={stripeicon}></Image>
-              <Image className=' w-[5.479rem] h-[5.479rem] sm:w-[7.125rem] sm:h-[7.125rem] ' src={paypalicon}></Image>
-              <Image className=' w-[5.479rem] h-[5.479rem] sm:w-[7.125rem] sm:h-[7.125rem] ' src={framericon}></Image>
-              <Image className=' w-[5.479rem] h-[5.479rem] sm:w-[7.125rem] sm:h-[7.125rem] ' src={vectior}></Image>
+          <div className=' p-2 bg-black/20 mt-6 lg:mt-14 rounded-t-[1.9rem]'>
+            <div className=' relative flex flex-col items-center justify-center w-[18.4375rem] sm:w-[22rem] h-[46.875rem] bg-[#232526]  rounded-t-[1.9rem] '  >
+              <div className=' flex gap-4 sm:gap-6 absolute left-[-25%] sm:left-[-30%] top-10 '>
+                <Image className=' w-[5.479rem] h-[5.479rem] sm:w-[7.125rem] sm:h-[7.125rem] ' src={stripeicon}></Image>
+                <Image className=' w-[5.479rem] h-[5.479rem] sm:w-[7.125rem] sm:h-[7.125rem] ' src={paypalicon}></Image>
+                <Image className=' w-[5.479rem] h-[5.479rem] sm:w-[7.125rem] sm:h-[7.125rem] ' src={framericon}></Image>
+                <Image className=' w-[5.479rem] h-[5.479rem] sm:w-[7.125rem] sm:h-[7.125rem] ' src={vectior}></Image>
+              </div>
+              <Image src={image4} className='w-[13.29rem] h-[3.459rem] sm:w-[17.125rem] mt-5 sm:h-[4.5rem]'></Image>
             </div>
-            <Image src={image4} className='w-[13.29rem] h-[3.459rem] sm:w-[17.125rem] mt-5 sm:h-[4.5rem]'></Image>
           </div>
         </div>
       </div>
