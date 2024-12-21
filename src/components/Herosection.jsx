@@ -17,7 +17,7 @@ const montserrat2 = Montserrat({ weight: '600', subsets: ["latin"] });
 
 export default function Herosection() {
     return (
-        <section className=' top-0 bg-gradient-to-t  relative from-[#AFE0FF] to-[#82DCFF] pt-32'>
+        <section className=' top-0 bg-custom-gradient  relative  pt-32'>
             <Image src={lights} alt='lights' className=' absolute  w-full h-[59.98875rem] -top-[27rem] opacity-100 rotate-180 '></Image>
             <div className=' relative overflow-hidden'>
                 <div className=' z-30 flex justify-center mb-7'>
