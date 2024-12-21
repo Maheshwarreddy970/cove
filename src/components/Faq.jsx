@@ -99,7 +99,7 @@ const AccordionItem = ({
       <button
         onClick={handleClick}
         className={cn(
-          "flex w-full  gap-4  justify-between py-4")}
+          "flex w-full  gap-4  justify-between pb-7 pt-3.5 sm:pb-8 sm:pt-5")}
       >
         <div className={cn("font-montserrat text-[20px] font-semibold leading-[24.38px] tracking-[-0.02em] text-left decoration-skip-ink-none")}>{title}</div>
         <motion.div
