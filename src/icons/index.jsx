@@ -113,5 +113,21 @@ export const icons = {
             </svg>
         )
     },
-  
+    meanuelines: (props) => {
+        return (
+            <svg width="32" height="33" viewBox="0 0 32 33" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <g clip-path="url(#clip0_2126_1216)">
+                    <path d="M5 16.1149H27" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M5 8.11493H27" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                    <path d="M5 24.1149H27" stroke="black" stroke-width="2" stroke-linecap="round" stroke-linejoin="round" />
+                </g>
+                <defs>
+                    <clipPath id="clip0_2126_1216">
+                        <rect width="32" height="32" fill="white" transform="translate(0 0.114929)" />
+                    </clipPath>
+                </defs>
+            </svg>
+
+        )
+    }
 }

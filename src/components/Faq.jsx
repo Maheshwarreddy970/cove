@@ -34,7 +34,7 @@ const faqList = [
 
 export const Faq = () => {
   // State to manage which accordion item is open
-  const [accordionOpen, setAccordionOpen] = useState(-1);
+  const [accordionOpen, setAccordionOpen] = useState(0);
 
   return (
     <section className="flex flex-col items-center pt-20 pb-10  ">
@@ -66,7 +66,7 @@ export const Faq = () => {
 
 const Accordion = ({ children, className }) => {
   return (
-    <div className={cn("flex w-full flex-col gap-4  rounded-2xl px-3 py-7 md:px-10 md:py-10", className)}>
+    <div className={cn("flex w-full flex-col gap-4  rounded-2xl px-5 py-7 md:px-10 md:py-10", className)}>
       {children}
     </div>
   );
@@ -99,7 +99,7 @@ const AccordionItem = ({
       <button
         onClick={handleClick}
         className={cn(
-          "flex w-full  gap-4  justify-between py-8")}
+          "flex w-full  gap-4  justify-between py-4")}
       >
         <div className={cn("font-montserrat text-[20px] font-semibold leading-[24.38px] tracking-[-0.02em] text-left decoration-skip-ink-none")}>{title}</div>
         <motion.div
@@ -124,7 +124,7 @@ const AccordionItem = ({
             transition={{ ease: "easeInOut", duration: 0.5 }}
             className="overflow-hidden text-wrap"
           >
-            <p className="m-5 font-montserrat text-[18px] font-medium leading-[28px] text-left decoration-skip-ink-none">{answer}</p>
+            <p className=" mb-8 font-montserrat opacity-60 text-[18px] font-medium leading-[28px] text-left decoration-skip-ink-none">{answer}</p>
           </motion.div>
         )}
       </AnimatePresence>

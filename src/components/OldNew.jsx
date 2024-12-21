@@ -7,7 +7,7 @@ import { icons } from '@/icons'
 
 export default function OldNew() {
   return (
-    <section className=' max-w-7xl xl:mx-auto mt-36 px-4 xl:px-0 '>
+    <section className=' max-w-7xl xl:mx-auto mt-24 sm:mt-32 px-4 xl:px-0 '>
       <div className=' flex flex-col items-center gap-3'>
         <Image src={Coral4kDigitalAsset} className='w-[7.5rem] h-[7.5rem]'></Image>
         <h1 className='md:text-[46px] md:font-bold md:leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717] text-[2.5rem] font-bold leading-[2.75rem]'>Old Way Vs. New Way</h1>
@@ -30,7 +30,7 @@ export default function OldNew() {
               <p className=" z-30">Financial apps left you feeling unmotivated</p>
             </div>
           </div>
-          <Image className=' absolute  w-[60rem] h-[45.59rem] -right-20 -bottom-28   md:-bottom-28  lg:-bottom-32 md:-right-48' src={Vault4kWithoutPlatform} ></Image>
+          <Image className=' absolute  w-[45.59rem] h-[36rem] -right-16 -bottom-10   md:-bottom-28  lg:-bottom-10 md:-right-32' src={Vault4kWithoutPlatform} ></Image>
         </div>
         <div className='rounded-[0.75rem] overflow-hidden relative border pt-6 pr-10 pb-6 pl-10 gap-6 bg-gradient-to-br from-[#C8FFBE] to-[#5CBCCB] border-[#79B487] w-full h-[600px] lg:h-[520px] border-t'>
           <h1 className='text-2xl font-bold leading-[2.6rem] tracking-[-0.04em] text-left  decoration-skip-ink-none'>After</h1>
@@ -48,7 +48,7 @@ export default function OldNew() {
               <p className=" z-30">Feel excited about reaching your financial goals</p>
             </div>
           </div>
-          <Image className=' absolute w-[30.875rem] h-[31.938rem] lg:w-[35.87rem] lg:h-[37.05rem] -bottom-36 -right-44' alt='vault' src={vault} ></Image>
+          <Image className=' absolute w-[30.875rem] h-[31.938rem] lg:w-[35.87rem] lg:h-[37.05rem] -bottom-36 -right-32 md:-right-44' alt='vault' src={vault} ></Image>
         </div>
         <div>
 

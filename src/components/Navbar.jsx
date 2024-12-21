@@ -1,6 +1,7 @@
 import React from 'react'
 import logo from '@/../public/logo.png'
 import Image from 'next/image'
+import { icons } from '@/icons'
 
 const navitems = [
     {
@@ -41,6 +42,9 @@ export default function Nabbar() {
                 <button className='hidden md:block bg-black gap-2 rounded-[144px] py-2.5 px-8 text-lg text-white font-bold'>
                     Get the App
                 </button>
+                <div className=' md:hidden'>
+                <icons.meanuelines></icons.meanuelines>
+                </div>
             </div>
         </nav>
     )

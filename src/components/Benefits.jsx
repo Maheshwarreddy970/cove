@@ -12,7 +12,7 @@ import paypalicon from '@/../public/logos/paypalicon.png'
 
 export default function Benefits() {
   return (
-    <section className=' py-24 px-3 xl:px-0 '>
+    <section className=' py-32 px-3 xl:px-0 '>
       <div className=' flex flex-col items-center gap-1'>
         <div className=' h-16 w-[17rem] overflow-hidden '>
           <Image src={BonsaiTree} className='w-[17rem] h-[17rem] -mt-36 object-cover'></Image>
@@ -48,7 +48,7 @@ export default function Benefits() {
             <p className=' text-lg font-medium opacity-70'>Cove syncs seamlessly with your bank accounts, ensuring you have complete control over your money without any extra effort.</p>
           </div>
           <div className=' relative flex flex-col items-center justify-center w-[18.4375rem] sm:w-[22rem] h-[46.875rem] bg-[#232526] border-8 border-black/20 mt-6 lg:mt-14 rounded-t-[1.9rem] '  >
-            <div className=' flex gap-4 sm:gap-6 absolute left-[-30%] top-10 '>
+            <div className=' flex gap-4 sm:gap-6 absolute left-[-25%] sm:left-[-30%] top-10 '>
               <Image className=' w-[5.479rem] h-[5.479rem] sm:w-[7.125rem] sm:h-[7.125rem] ' src={stripeicon}></Image>
               <Image className=' w-[5.479rem] h-[5.479rem] sm:w-[7.125rem] sm:h-[7.125rem] ' src={paypalicon}></Image>
               <Image className=' w-[5.479rem] h-[5.479rem] sm:w-[7.125rem] sm:h-[7.125rem] ' src={framericon}></Image>
