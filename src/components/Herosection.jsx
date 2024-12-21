@@ -11,6 +11,7 @@ import rightsideislandherosection from '@/../public/rightsideislandherosection.p
 import mainIslandLayer2 from '@/../public/mainIslandLayer 2.png'
 import airbelloon from '@/../public/orginal.png'
 import lights from '@/../public/lights.png'
+import { icons } from '@/icons'
 
 const montserrat = Montserrat({ weight: '700', subsets: ["latin"] });
 const montserrat2 = Montserrat({ weight: '600', subsets: ["latin"] });
@@ -18,7 +19,7 @@ const montserrat2 = Montserrat({ weight: '600', subsets: ["latin"] });
 export default function Herosection() {
     return (
         <section className=' top-0 bg-custom-gradient  relative  pt-32'>
-            <Image src={lights} alt='lights' className=' absolute  w-full h-[59.98875rem] -top-[27rem] opacity-100 rotate-180 '></Image>
+            <icons.lightarrays className='w-full absolute mt-[-20rem] md:mt-[-15rem] xl:mt-[-9rem] '></icons.lightarrays>
             <div className=' relative overflow-hidden'>
                 <div className=' z-30 flex justify-center mb-7'>
                     <p className={` ${montserrat2.className} rounded-[144px] bg-white/30 border border-[#95D0DF] pt-[6px] pr-4 pb-[6px] pl-4 gap-2 font-semibold sm:text-[18px] sm:leading-[21px] text-[0.875rem] leading-[1.067rem] text-[#004248] uppercase`}>Finance for next generation</p>
