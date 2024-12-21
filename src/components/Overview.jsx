@@ -13,17 +13,17 @@ const adventpro = Advent_Pro({ weight: '700', subsets: ["latin"] });
 export default function Overview() {
   const [activeImage, setActiveImage] = useState(0)
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setActiveImage((prevActiveImage) => {
-        return (prevActiveImage + 1) % 3;
-      });
-    }, 9000)
+  // useEffect(() => {
+  //   const intervalId = setInterval(() => {
+  //     setActiveImage((prevActiveImage) => {
+  //       return (prevActiveImage + 1) % 3;
+  //     });
+  //   }, 9000)
 
-    return () => {
-      clearInterval(intervalId)
-    }
-  }, [])
+  //   return () => {
+  //     clearInterval(intervalId)
+  //   }
+  // }, [])
 
   return (
     <section className={` bg-[#232526] text-white py-24 lg:px-5 overflow-hidden`}>
@@ -136,8 +136,11 @@ export default function Overview() {
                         initial={{ opacity: 0, x: -50 }}
                         animate={{ opacity: 2, x: 0 }}
                         transition={{ duration: 1, ease: 'easeIn', type: 'spring', stiffness: 100 }}
-                      >
-                        <img src={'/positivevaultscreenshot.png'} alt='positivevaultscreenshot.png' className=' w-[47.89rem] h-[80.21rem] scale-[1.2] -mt-56' />
+                     className=' relative '
+                     >
+                        <img src='/greenborder.png' alt='greenborder' className=' sm:h-[5.439rem]  w-[20rem] sm:w-[27rem] sm:block hidden md:w-[30.5rem] z-50  left-[21.5%] top-[21rem] sm:top-[20rem] absolute'></img>
+                        <img src='/spytaredingcard.png' alt='spytaredingcard' className=' sm:h-[6.3rem] w-[20rem]  sm:md:w-[30.5rem] sm:block hidden md:w-[30.5rem] z-50 left-[21.5%] top-[19rem] sm:top-[18rem] absolute'></img>
+                        <img src={'/PositiveVaultScreenshot1.png'} alt='positivevaultscreenshot.png' className=' w-[47.89rem] h-[80.21rem] scale-[1.2] -mt-56' />
                       </motion.div>
                     </motion.span>
                   )}
@@ -162,6 +165,7 @@ export default function Overview() {
                 initial={{ opacity: 0, x: 50 }}
                 animate={{ opacity: 1, x: 0 }}
                 transition={{ duration: 2, ease: 'easeIn', type: 'spring', stiffness: 100 }}
+                className=' relative'
               >
                 <img src={'/howitworktreadingcard.png'} alt='howitworktreadingcard' className=' h-full  ' />
               </motion.div>
@@ -172,8 +176,11 @@ export default function Overview() {
                 initial={{ opacity: 0, x: -50 }}
                 animate={{ opacity: 2, x: 0 }}
                 transition={{ duration: 1, ease: 'easeIn', type: 'spring', stiffness: 100 }}
+                className=' relative '
               >
-                <img src={'/positivevaultscreenshot.png'} alt='positivevaultscreenshot.png' className=' w-[47.89rem] h-[80.21rem] scale-[1.2] -mt-56' />
+                <img src='/greenborder.png' alt='greenborder' className=' h-[5.439rem] w-[27rem] z-50 left-[21.5%] top-[20rem] absolute'></img>
+                <img src='/spytaredingcard.png' alt='spytaredingcard' className=' h-[6.3rem] w-[29.5rem] z-50 left-[21.5%] top-[18rem] absolute'></img>
+                <img src={'/PositiveVaultScreenshot1.png'} alt='positivevaultscreenshot.png' className=' w-[47.89rem] h-[80.21rem] scale-[1.2] -mt-56' />
               </motion.div>
             }
 
