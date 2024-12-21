@@ -1,8 +1,5 @@
-import Image from 'next/image'
 import React from 'react'
-import bananatree from '@/../public/bananatree.png'
-import tree from '@/../public/tree.png'
-import orginal from '@/../public/orginal.png'
+
 
 export default function CalltoAction() {
   return (
@@ -21,10 +18,10 @@ export default function CalltoAction() {
         </div>
       </div>
 
-      <Image src={bananatree} alt='bananatree'  className=' hidden lg:absolute w-[40rem] h-[40rem]  -bottom-1 -right-60 ' ></Image>
-      <Image src={tree} alt='tree' className='w-[43rem] h-[43rem] object-cover -bottom-1 -left-[4rem] hidden lg:absolute '  ></Image>
-      <Image src={orginal} alt='bananatree'  className=' absolute md:-top-8 -top-16 -left-24 scale-150 sm:scale-100 md:-left-16 xl:left-36 w-[15.1875rem] h-[15.1875rem]  -bottom-1 -right-60 ' ></Image>
-      <Image src={orginal} alt='bananatree'  className=' absolute top-0 xl:-top-10 blur-sm -right-6 md:right-0 w-[8.25rem] h-[8.25rem] scale-150 sm:scale-100' ></Image>
+      <img src={'/bananatree.png'} alt='bananatree'  className=' hidden lg:absolute lg:block w-[40rem] h-[40rem]  -bottom-1 -right-60 ' ></img>
+      <img src={'/tree.png'} alt='tree' className='w-[43rem] h-[43rem] object-cover -bottom-1 -left-[4rem] hidden lg:absolute lg:block '  ></img>
+      <img src={'/orginal.png'} alt='bananatree'  className=' absolute md:-top-8 -top-16 -left-24 scale-150 sm:scale-100 md:-left-16 xl:left-36 w-[15.1875rem] h-[15.1875rem]  -bottom-1 -right-60 ' ></img>
+      <img src={'/orginal.png'} alt='bananatree'  className=' absolute top-0 xl:-top-10 blur-sm -right-6 md:right-0 w-[8.25rem] h-[8.25rem] scale-150 sm:scale-100' ></img>
 
     </section>
   )
