@@ -1,16 +1,5 @@
 import { Montserrat } from 'next/font/google';
-import Image from 'next/image';
 import React from 'react'
-import bananatree from '@/../public/BananaTreeCrystal 3.png'
-import newsboard from '@/../public/NewsBoard.png'
-import vault from '@/../public/Vault_2.png'
-import phones from '@/../public/herophone.png'
-import ocean from '@/../public/ocean.png'
-import leftsideislandherosection from '@/../public/leftsideislandherosection.png'
-import rightsideislandherosection from '@/../public/rightsideislandherosection.png'
-import mainIslandLayer2 from '@/../public/mainIslandLayer 2.png'
-import airbelloon from '@/../public/orginal.png'
-import lights from '@/../public/lights.png'
 import { icons } from '@/icons'
 
 const montserrat = Montserrat({ weight: '700', subsets: ["latin"] });
@@ -32,19 +21,19 @@ export default function Herosection() {
                     <div className='max-w-[67rem] z-30   mx-auto border rounded-xl md:rounded-full bg-black/20 border-white/50 md:flex backdrop-blur-[1px]  '>
                         <div className=' flex py-4  px-6 lg:py-6 z-30 gap-2'>
                             <div className=' w-[70px] h-[42px]'>
-                                <Image src={bananatree} alt='bananatree' width={42} height={42} className=' w-[70px] h-[42px]'></Image>
+                                <img src={'/BananaTreeCrystal 3.png'} alt='bananatree' width={42} height={42} className=' w-[70px] h-[42px]'></img>
                             </div>
                             <p className={` text-white text-base leading-5 font-medium`}>Visualize your savings as a customizable virtual island</p>
                         </div>
                         <div className=' flex py-4  px-6 lg:py-6 z-30 gap-2'>
-                            <div className='w-[60px] h-[42px] relative mx-2.5  '>
-                                <Image src={newsboard} alt='newsboard' width={42} height={42} className=' w-[70px] h-[42px] '></Image>
+                            <div className='w-[70px] h-[42px] relative mx-2.5  '>
+                                <img src={'/NewsBoard.png'} alt='newsboard' width={42} height={42} className=' w-[70px] h-[42px] '></img>
                             </div>
                             <p className={` text-white text-base leading-5 font-medium`}>Get started in minutes with an intuitive, user-friendly design</p>
                         </div>
                         <div className=' flex py-4  px-6 lg:py-6 z-30 gap-2'>
                             <div className=' w-[90px] h-[42px]  '>
-                                <Image src={vault} alt='vault' width={42} height={42} className=' w-[90px] h-[52px] -mt-2'></Image>
+                                <img src={'/Vault_2.png'} alt='vault' width={42} height={42} className=' w-[90px] h-[52px] -mt-2'></img>
                             </div>
                             <p className={` text-white z-30 text-base leading-5 font-medium`}>Earn competitive APY while enjoying a stress-free experience</p>
                         </div>
@@ -57,20 +46,20 @@ export default function Herosection() {
                 <div className=' mt-5 flex flex-col items-center gap-4 h-[18rem] md:h-[28rem] '>
                     <p className='font-semibold text-sm px-6 xl:px-0  z-30 text-white text-center'>Protected by FDIC and SIPC insurance for peace of mind.</p>
                 </div>
-                <Image
-                    className=' absolute bottom-0 w-full  h-[49rem] md:h-[42rem] '
+                <img
+                    className=' absolute bottom-0 w-full  h-[49rem] md:h-[40rem] '
                     style={{
-                        maskImage: `linear-gradient(to bottom, transparent, black 12%)`,
+                        maskImage: `linear-gradient(to bottom, transparent, black 10%)`,
                     }}
-                    src={ocean} alt='ocean'></Image>
-                <Image src={leftsideislandherosection} alt='leftsideislandherosection' className=' absolute   w-[75rem] h-[56.03rem] -bottom-[14rem] md:-left-[35rem] sm:-left-[30rem] -left-[19rem] '></Image>
-                <Image src={rightsideislandherosection} alt='rightsideislandherosection' className=' absolute w-[87rem] h-[52rem]  -bottom-[15rem]   md:-right-[50rem] -right-[30rem] '></Image>
-                <Image src={mainIslandLayer2} alt='mainIslandLayer2' className=' absolute   w-[26.9375rem] h-[13.0625rem] top-[29%] md:top-[32%] -left-60  md:-left-36 '></Image>
-                <Image src={mainIslandLayer2} alt='mainIslandLayer2' className='hidden md:block absolute  w-[26.9375rem] h-[13.0625rem] top-[32%] -right-40'></Image>
-                <Image src={airbelloon} alt='airbelloon' className=' absolute w-[13.25rem] h-[13.25rem] top-24 -left-24 sm:top-40 lg:top-0 sm:left-0 2xl:left-[3rem]'></Image>
-                <Image src={airbelloon} alt='airbelloon' className='hidden sm:block sm:absolute w-[8.25rem] h-[8.25rem] blur-sm top-40 right-0'></Image>
+                    src={'/ocean.png'} alt='ocean'></img>
+                <img src={'/leftsideislandherosection.png'} alt='leftsideislandherosection' className=' absolute   w-[75rem] h-[56.03rem] -bottom-[14rem] md:-left-[35rem] sm:-left-[30rem] -left-[19rem] '></img>
+                <img src={'/rightsideislandherosection.png'} alt='rightsideislandherosection' className=' absolute w-[87rem] h-[52rem]  -bottom-[15rem]   md:-right-[50rem] -right-[30rem] '></img>
+                <img src={'/mainIslandLayer 2.png'} alt='mainIslandLayer2' className=' absolute   w-[26.9375rem] h-[13.0625rem] top-[29%] md:top-[32%] -left-60  md:-left-36 '></img>
+                <img src={'/mainIslandLayer 2.png'} alt='mainIslandLayer2' className='hidden md:block absolute  w-[26.9375rem] h-[13.0625rem] top-[32%] -right-40'></img>
+                <img src={'/orginal.png'} alt='airbelloon' className=' absolute w-[13.25rem] h-[13.25rem] top-24 -left-24 sm:top-40 lg:top-0 sm:left-0 2xl:left-[3rem]'></img>
+                <img src={'/orginal.png'} alt='airbelloon' className='hidden sm:block sm:absolute w-[8.25rem] h-[8.25rem] blur-sm top-40 right-0'></img>
             </div>
-            <Image src={phones} alt='phones' className=' left-1/2 translate-x-[-50%] absolute -bottom-[12rem] sm:-bottom-[26rem] md:-bottom-[21rem] z-30 w-[26rem] h-[24rem] p-5 sm:w-[48rem] sm:h-[43rem]'></Image>
+            <img src={'/herophone.png'} alt='phones' className=' left-1/2 translate-x-[-50%] absolute -bottom-[12rem] sm:-bottom-[26rem] md:-bottom-[21rem] z-30 w-[26rem] h-[24rem] p-5 sm:w-[48rem] sm:h-[43rem]'></img>
         </section>
     )
 }
