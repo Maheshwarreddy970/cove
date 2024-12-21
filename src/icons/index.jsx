@@ -134,5 +134,19 @@ export const icons = {
         return (
             <svg xmlns="http://www.w3.org/2000/svg" width="32" height="33" viewBox="0 0 24 24" fill="none" stroke="currentColor" strokeWidth="2" strokeLinecap="round" strokeLinejoin="round" class="lucide lucide-x"><path d="M18 6 6 18" /><path d="m6 6 12 12" /></svg>
         )
+    },
+    bluelightray: (props) => {
+        return (
+            <svg {...props} width="422" height="46" viewBox="0 0 422 46" fill="none" xmlns="http://www.w3.org/2000/svg">
+                <path d="M48.6339 45.251L0 0.250977H422L374.886 45.251H48.6339Z" fill="url(#paint0_linear_2126_1072)" />
+                <defs>
+                    <linearGradient id="paint0_linear_2126_1072" x1="211" y1="0.250977" x2="211" y2="45.251" gradientUnits="userSpaceOnUse">
+                        <stop stop-color="#07C8E6" />
+                        <stop offset="1" stop-color="#07C8E6" stop-opacity="0" />
+                    </linearGradient>
+                </defs>
+            </svg>
+
+        )
     }
 }
