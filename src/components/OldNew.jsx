@@ -15,7 +15,7 @@ export default function OldNew() {
       </div>
       <div className=' grid grid-cols-1 md:grid-cols-2 gap-8 mt-14'>
         <div className='rounded-[0.75rem] overflow-hidden relative border pt-6 pr-10 pb-6 pl-10 gap-6 bg-[#F6F6E9] border-[#D0D0BB] w-full h-[600px] lg:h-[520px] border-t'>
-          <h1 className='text-2xl font-bold leading-[2.6rem] tracking-[-0.04em] text-left  decoration-skip-ink-none'>Before</h1>
+          <h1 className='text-[2rem] font-bold leading-[2.6rem] tracking-[-0.02em] text-left'>Before</h1>
           <div className=' text-[18px] font-medium leading-[28px] text-left flex flex-col gap-4  decoration-skip-ink-none'>
             <div className=' flex gap-3 '>
               <icons.vectior></icons.vectior>
@@ -33,7 +33,7 @@ export default function OldNew() {
           <Image className=' absolute  w-[45.59rem] h-[36rem] -right-16 -bottom-10   md:-bottom-28  lg:-bottom-10 md:-right-32' src={Vault4kWithoutPlatform} ></Image>
         </div>
         <div className='rounded-[0.75rem] overflow-hidden relative border pt-6 pr-10 pb-6 pl-10 gap-6 bg-gradient-to-br from-[#C8FFBE] to-[#5CBCCB] border-[#79B487] w-full h-[600px] lg:h-[520px] border-t'>
-          <h1 className='text-2xl font-bold leading-[2.6rem] tracking-[-0.04em] text-left  decoration-skip-ink-none'>After</h1>
+          <h1 className='text-[2rem] font-bold leading-[2.6rem] tracking-[-0.02em] text-left text-[#274B3F]'>After</h1>
           <div className=' text-[18px] font-bold gap-4 flex flex-col leading-[28px] text-left text-[#274B3F]'>
             <div className=' flex gap-3 '>
               <icons.vectiorfilled></icons.vectiorfilled>

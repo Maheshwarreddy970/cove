@@ -6,6 +6,7 @@ import GettoKnowsection from "@/components/GettoKnowsection";
 import Herosection from "@/components/Herosection";
 import Logosection from "@/components/Logosection";
 import OldNew from "@/components/OldNew";
+import Overview from "@/components/Overview";
 
 export default function Home() {
   return (
