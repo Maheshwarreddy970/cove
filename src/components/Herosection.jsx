@@ -11,7 +11,6 @@ import rightsideislandherosection from '@/../public/rightsideislandherosection.p
 import mainIslandLayer2 from '@/../public/mainIslandLayer 2.png'
 import airbelloon from '@/../public/orginal.png'
 import lights from '@/../public/lights.png'
-import { icons } from '@/icons'
 
 const montserrat = Montserrat({ weight: '700', subsets: ["latin"] });
 const montserrat2 = Montserrat({ weight: '600', subsets: ["latin"] });
@@ -62,13 +61,13 @@ export default function Herosection() {
                     style={{
                         maskImage: `linear-gradient(to bottom, transparent, black 12%)`,
                     }}
-                    src={ocean}></Image>
+                    src={ocean} alt='ocean'></Image>
                 <Image src={leftsideislandherosection} alt='leftsideislandherosection' className=' absolute   w-[75rem] h-[56.03rem] -bottom-[14rem] md:-left-[35rem] sm:-left-[30rem] -left-[19rem] '></Image>
                 <Image src={rightsideislandherosection} alt='rightsideislandherosection' className=' absolute w-[87rem] h-[52rem]  -bottom-[15rem]   md:-right-[50rem] -right-[30rem] '></Image>
-                <Image src={mainIslandLayer2} className=' absolute   w-[26.9375rem] h-[13.0625rem] top-[29%] md:top-[32%] -left-60  md:-left-36 '></Image>
-                <Image src={mainIslandLayer2} className='hidden md:block absolute  w-[26.9375rem] h-[13.0625rem] top-[32%] -right-40'></Image>
-                <Image src={airbelloon} className=' absolute w-[13.25rem] h-[13.25rem] top-24 -left-24 sm:top-40 lg:top-0 sm:left-0 2xl:left-[3rem]'></Image>
-                <Image src={airbelloon} className='hidden sm:block sm:absolute w-[8.25rem] h-[8.25rem] blur-sm top-40 right-0'></Image>
+                <Image src={mainIslandLayer2} alt='mainIslandLayer2' className=' absolute   w-[26.9375rem] h-[13.0625rem] top-[29%] md:top-[32%] -left-60  md:-left-36 '></Image>
+                <Image src={mainIslandLayer2} alt='mainIslandLayer2' className='hidden md:block absolute  w-[26.9375rem] h-[13.0625rem] top-[32%] -right-40'></Image>
+                <Image src={airbelloon} alt='airbelloon' className=' absolute w-[13.25rem] h-[13.25rem] top-24 -left-24 sm:top-40 lg:top-0 sm:left-0 2xl:left-[3rem]'></Image>
+                <Image src={airbelloon} alt='airbelloon' className='hidden sm:block sm:absolute w-[8.25rem] h-[8.25rem] blur-sm top-40 right-0'></Image>
             </div>
             <Image src={phones} alt='phones' className=' left-1/2 translate-x-[-50%] absolute -bottom-[12rem] sm:-bottom-[26rem] md:-bottom-[21rem] z-30 w-[26rem] h-[24rem] p-5 sm:w-[48rem] sm:h-[43rem]'></Image>
         </section>

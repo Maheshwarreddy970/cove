@@ -24,7 +24,7 @@ export default function GettoKnowsection() {
           </p>
         </div>
         <div className=' flex h-[21rem] xl:h-full w-full justify-center items-center bg-gradient-to-br from-[#7ACF3F] to-[#00C8F0] rounded-3xl '>
-          <Image src={CoveDarkLogo} className=' w-[280px] h-[73px]'></Image>
+          <Image alt='CoveDarkLogo' src={CoveDarkLogo} className=' w-[280px] h-[73px]'></Image>
         </div>
       </div>
     </section >

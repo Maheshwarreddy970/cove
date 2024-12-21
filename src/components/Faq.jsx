@@ -40,7 +40,7 @@ export const Faq = () => {
     <section className="flex flex-col items-center pt-20 pb-10  ">
       <div className=' flex flex-col items-center gap-1'>
         <div className=' w-[12.875rem] h-[4rem] overflow-hidden  '>
-          <Image src={BonsaiTree} className='w-[12.875rem]  h-[12.875rem] -mt-28'></Image>
+          <Image alt="BonsaiTree" src={BonsaiTree} className='w-[12.875rem]  h-[12.875rem] -mt-28'></Image>
         </div>
         <h1 className=' px-3 text-[40px] md:text-[46px] font-bold leading-[48px] md:leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717]'>Frequently Asked Questions</h1>
         <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none'>FAQs</p>

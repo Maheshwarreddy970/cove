@@ -14,6 +14,7 @@ export default function Home() {
       <Herosection></Herosection>
       <Logosection></Logosection>
       <OldNew></OldNew>
+      <Overview></Overview>
       <Benefits></Benefits>
       <GettoKnowsection></GettoKnowsection>
       <Faq></Faq>
