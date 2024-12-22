@@ -6,26 +6,9 @@ import Image from 'next/image'
 import { icons } from '@/icons'
 import { useState } from "react";
 import { cn } from '@/lib/utils'
+import { data } from '@/data'
 
-const navitems = [
-    {
-        name: 'Stats',
-        href: '#'
-    },
-    {
-        name: 'How it works',
-        href: '#'
-    },
-    {
-        name: 'Industries',
-        href: '#'
 
-    },
-    {
-        name: 'Features',
-        href: '#'
-    },
-]
 export default function Nabbar() {
 
     const [isMenuOpen, setMenuOpen] = useState(false);
@@ -39,7 +22,7 @@ export default function Nabbar() {
                 </div>
                 <div className=' hidden md:flex gap-6'>
                     {
-                        navitems.map((item, index) => (
+                        data.navigationbar.list.map((item, index) => (
                             <a href={item.href} key={index}>
                                 {item.name}
                             </a>
@@ -47,14 +30,14 @@ export default function Nabbar() {
                         )
                     }
                 </div>
-                <button className='hidden md:block bg-black gap-2 rounded-[144px] py-2.5 px-8 text-lg text-white font-bold'>
+                <a href={data.navigationbar.buttonslinks.gettheapp}  className='hidden md:block bg-black gap-2 rounded-[144px] py-2.5 px-8 text-lg text-white font-bold'>
                     Get the App
-                </button>
+                </a>
                 <MenuToggle isMenuOpen={isMenuOpen} setMenuOpen={setMenuOpen} />
             </div>
                 {isMenuOpen && (
                     <div className="flex top-20  p-5 md:hidden h-full absolute flex-col text-2xl gap-6 w-full">
-                        {navitems.map((item, index) => (
+                        {data.navigationbar.list.map((item, index) => (
                             <a
                                 key={index}
                                 className=''

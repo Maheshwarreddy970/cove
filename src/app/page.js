@@ -6,7 +6,7 @@ import GettoKnowsection from "@/components/GettoKnowsection";
 import Herosection from "@/components/Herosection";
 import Logosection from "@/components/Logosection";
 import OldNew from "@/components/OldNew";
-import Overview from "@/components/Overview";
+import Howitworkssection from "@/components/Overview";
 
 export default function Home() {
   return (
@@ -14,7 +14,7 @@ export default function Home() {
       <Herosection></Herosection>
       <Logosection></Logosection>
       <OldNew></OldNew>
-      <Overview></Overview>
+      <Howitworkssection></Howitworkssection>
       <Benefits></Benefits>
       <GettoKnowsection></GettoKnowsection>
       <Faq></Faq>

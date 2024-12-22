@@ -6,31 +6,9 @@ import { useState } from "react";
 import BonsaiTree from '@/../public/CampChair.png'
 import Image from "next/image";
 import { icons } from '@/icons'
+import { data } from "@/data";
 
-// Define the Accordion component
 
-const faqList = [
-  {
-    title: "Can you customize my existing Shopify theme?",
-    answer:
-      "Connect with other savers through leaderboards, quests, and a dedicated Discord community. Share tips, find motivation, and celebrate milestones with friends.",
-  },
-  {
-    title: "What is a Development Sprint and how does it work?",
-    answer:
-      "Connect with other savers through leaderboards, quests, and a dedicated Discord community. Share tips, find motivation, and celebrate milestones with friends.",
-  },
-  {
-    title: "How long does it typically take to build a complete Shopify site?",
-    answer:
-      "Connect with other savers through leaderboards, quests, and a dedicated Discord community. Share tips, find motivation, and celebrate milestones with friends.",
-  },
-  {
-    title: "Are your Shopify solutions mobile-responsive?",
-    answer:
-      "Connect with other savers through leaderboards, quests, and a dedicated Discord community. Share tips, find motivation, and celebrate milestones with friends.",
-  },
-];
 
 export const Faq = () => {
   // State to manage which accordion item is open
@@ -42,12 +20,12 @@ export const Faq = () => {
         <div className=' w-[12.875rem] h-[4rem] overflow-hidden  '>
           <Image alt="BonsaiTree" src={BonsaiTree} className='w-[12.875rem]  h-[12.875rem] -mt-28'></Image>
         </div>
-        <h1 className=' px-3 text-[40px] md:text-[46px] font-bold leading-[48px] md:leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717]'>Frequently Asked Questions</h1>
-        <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none'>FAQs</p>
+        <h1 className=' px-3 text-[40px] md:text-[46px] font-bold leading-[48px] md:leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717]'>{data.faqsection.title}</h1>
+        <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none'>{data.faqsection.subheading}</p>
       </div>
       <div className="max-w-5xl flex w-full md:flex-row flex-col gap-9 md:gap-5">
         <Accordion>
-          {faqList.map((item, index) => (
+          {data.faqsection.list.map((item, index) => (
             <AccordionItem
               className="  "
               accordionOpen={accordionOpen}

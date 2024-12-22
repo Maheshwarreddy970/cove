@@ -12,6 +12,7 @@ import vectior from '@/../public/logos/vectioricon.png'
 import paypalicon from '@/../public/logos/paypalicon.png'
 import blueborder from '@/../public/blueborder.png'
 import { icons } from '@/icons'
+import { data } from '@/data'
 
 export default function Benefits() {
   return (
@@ -20,28 +21,28 @@ export default function Benefits() {
         <div className=' h-16 w-[17rem] overflow-hidden '>
           <Image alt='bonsaitree' src={BonsaiTree} className='w-[17rem] h-[17rem] -mt-36 object-cover'></Image>
         </div>
-        <h1 className='text-[46px] font-bold leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717]'>Benefits</h1>
-        <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none'>Our Offerings</p>
+        <h1 className='text-[46px] font-bold leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717]'>{data.benefitssection.heading}</h1>
+        <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none'>{data.beforeaftersection.subheading}</p>
       </div>
       <div className=' grid grid-cols-1 lg:grid-cols-2 max-w-6xl xl:max-w-7xl mx-auto gap-6  mt-16'>
         <div className=' w-full xl:w-[39.25rem]  h-[40.625rem] flex flex-col items-center relative overflow-hidden rounded-[1.5rem] border border-solid border-black/20 bg-[#F6F6E9]'>
           <div className=' px-6 pt-6 flex flex-col gap-3'>
-            <h1 className='text-2xl font-semibold leading-[1.83rem] tracking-[-0.02em] text-left text-custom'>Turn financial goals into a fun, visual experience</h1>
-            <p className=' text-lg font-medium opacity-70'>With Cove, saving is more than just numbers. Customize your virtual island with rare decorations that represent your progress. Every dollar saved brings you closer to a unique, personalized world that grows as you do.</p>
+            <h1 className='text-2xl font-semibold leading-[1.83rem] tracking-[-0.02em] text-left text-custom'>{data.benefitssection.list[0].title}</h1>
+            <p className=' text-lg font-medium opacity-70'>{data.benefitssection.list[0].description}</p>
           </div>
           <Image alt='image1' className='w-[18.4375rem] sm:w-[22rem] h-[46.875rem] border-8 border-black/20 mt-6 lg:mt-14 rounded-[1.9rem] ' src={image1} ></Image>
         </div>
         <div className=' w-full xl:w-[39.25rem]  h-[40.625rem] flex flex-col items-center relative overflow-hidden rounded-[1.5rem] border border-solid border-black/20 bg-[#F6F6E9]'>
           <div className=' px-6 pt-6 flex flex-col gap-3'>
-            <h1 className='text-2xl font-semibold leading-[1.83rem] tracking-[-0.02em] text-left text-custom'>Invest with confidence, save with ease</h1>
-            <p className=' text-lg font-medium opacity-70'>Earn competitive interest rates on FDIC-insured savings and SIPC-protected investments. With Cove, your money works as hard as you do—without the stress of traditional financial tools.</p>
+            <h1 className='text-2xl font-semibold leading-[1.83rem] tracking-[-0.02em] text-left text-custom'>{data.benefitssection.list[1].title}</h1>
+            <p className=' text-lg font-medium opacity-70'>{data.benefitssection.list[1].description}</p>
           </div>
           <Image alt='image2' className='w-[18.4375rem] sm:w-[22rem] h-[46.875rem] border-8 border-black/20 mt-6 lg:mt-14 rounded-[1.9rem] ' src={image2} ></Image>
         </div>
         <div className=' w-full xl:w-[39.25rem]  h-[40.625rem] flex flex-col items-center relative overflow-hidden rounded-[1.5rem] border border-solid border-black/20 bg-[#F6F6E9]'>
           <div className=' px-6 pt-6 flex flex-col gap-3'>
-            <h1 className='text-2xl font-semibold leading-[1.83rem] tracking-[-0.02em] text-left text-custom'>A community that grows together</h1>
-            <p className=' text-lg font-medium opacity-70'>Connect with other savers through leaderboards, quests, and a dedicated Discord community. Share tips, find motivation, and celebrate milestones with friends.</p>
+            <h1 className='text-2xl font-semibold leading-[1.83rem] tracking-[-0.02em] text-left text-custom'>{data.benefitssection.list[2].title}</h1>
+            <p className=' text-lg font-medium opacity-70'>{data.benefitssection.list[2].description}</p>
           </div>
           <div className='w-[18.4375rem] relative sm:w-[22rem]  h-[46.875rem] border-8 border-black/20 mt-6 lg:mt-14 rounded-[1.9rem]'>
             <Image src={gabegdev} alt='gabegdev' className='z-40 absolute sm:top-[18%] top-[16%] scale-[1.3]'></Image>
@@ -52,8 +53,8 @@ export default function Benefits() {
         </div>
         <div className=' w-full xl:w-[39.25rem]  h-[40.625rem] flex flex-col items-center relative overflow-hidden rounded-[1.5rem] border border-solid border-black/20 bg-[#F6F6E9]'>
           <div className=' px-6 pt-6 flex flex-col gap-3'>
-            <h1 className='text-2xl font-semibold leading-[1.83rem] tracking-[-0.02em] text-left text-custom'>Direct integrations with your favorite tools</h1>
-            <p className=' text-lg font-medium opacity-70'>Cove syncs seamlessly with your bank accounts, ensuring you have complete control over your money without any extra effort.</p>
+            <h1 className='text-2xl font-semibold leading-[1.83rem] tracking-[-0.02em] text-left text-custom'>{data.benefitssection.list[3].title}</h1>
+            <p className=' text-lg font-medium opacity-70'>{data.benefitssection.list[3].description}</p>
           </div>
           <div className=' p-2 bg-black/20 mt-6 lg:mt-14 rounded-t-[1.9rem]'>
             <div className=' relative flex flex-col items-center  w-[18.4375rem] sm:w-[22rem] h-[46.875rem] bg-[#232526]  rounded-t-[1.9rem] '  >

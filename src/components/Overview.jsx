@@ -7,10 +7,11 @@ import Bush from '@/../public/Bush 4k Asset 1.png'
 import { Advent_Pro } from 'next/font/google';
 import { cn } from '@/lib/utils';
 import { AnimatePresence, motion } from 'framer-motion';
+import { data } from '@/data'
 
 const adventpro = Advent_Pro({ weight: '700', subsets: ["latin"] });
 
-export default function Overview() {
+export default function Howitworkssection() {
   const [activeImage, setActiveImage] = useState(0)
 
   useEffect(() => {
@@ -31,15 +32,15 @@ export default function Overview() {
         <div className=' h-16 w-[11.375rem] overflow-hidden '>
           <Image alt='bonsaitree' src={BonsaiTree} className='w-[11.375rem] h-[11.375rem] -mt-[5.5rem]  object-cover'></Image>
         </div>
-        <h1 className='text-[46px] font-bold leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none '>How it works</h1>
-        <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none'>Start building wealth in just 5 minutes</p>
+        <h1 className='text-[46px] font-bold leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none '>{data.howitworkssection.heading}</h1>
+        <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none'>{data.howitworkssection.subheading}</p>
       </div>
       <div className=' max-w-7xl mx-auto mt-16 flex lg:flex-row flex-col gap-[3rem] lg:px-3'>
         <div className=' w-full lg:w-[47%] '>
           <>
             <button onClick={() => setActiveImage(0)} className={cn(' relative overflow-hidden w-full py-8 flex flex-col gap-2 pl-10 pr-10  ', activeImage === 0 && " bg-[#FFFFF0] text-black pl-8 pr-14 py-10 gap-4 lg:gap-16  lg:rounded-3xl")}>
-              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 0 && "lg:text-[42px] text-black lg:font-bold lg:leading-[50.23px] text-left")}>Sign Up</p>
-              <p className={cn(`text-[16px] font-medium leading-[24px] tracking-[-0.02em] lg:text-[24px]  lg:leading-[32px] lg:tracking-[-0.02em] `, "font-montserrat lg:text-[24px] lg:font-medium lg:leading-[32px] lg:tracking-[-0.02em] text-left")}>Create your account with secure, hassle-free onboarding.</p>
+              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 0 && "lg:text-[42px] text-black lg:font-bold lg:leading-[50.23px] text-left")}>{data.howitworkssection.signup.heading}</p>
+              <p className={cn(`text-[16px] font-medium leading-[24px] tracking-[-0.02em] lg:text-[24px]  lg:leading-[32px] lg:tracking-[-0.02em] `, "font-montserrat lg:text-[24px] lg:font-medium lg:leading-[32px] lg:tracking-[-0.02em] text-left")}>{data.howitworkssection.signup.subheading}</p>
               {
                 activeImage === 0 &&
                 <motion.span
@@ -75,8 +76,8 @@ export default function Overview() {
           </>
           <>
             <button onClick={() => setActiveImage(1)} className={cn(' relative overflow-hidden w-full py-8 flex flex-col gap-2 pl-10 pr-10  ', activeImage === 1 && " bg-[#FFFFF0] text-black pl-8 pr-14 py-10 gap-4 lg:gap-16  lg:rounded-3xl")}>
-              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 1 && "lg:text-[42px] text-black lg:font-bold lg:leading-[50.23px] text-left")}>Stash & Earn</p>
-              <p className={cn(`text-[16px] font-medium leading-[24px] tracking-[-0.02em] lg:text-[24px]  lg:leading-[32px] lg:tracking-[-0.02em] `, "font-montserrat lg:text-[24px] lg:font-medium lg:leading-[32px] lg:tracking-[-0.02em] text-left")}>Watch your savings grow and earn rewards along the way.</p>
+              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 1 && "lg:text-[42px] text-black lg:font-bold lg:leading-[50.23px] text-left")}>{data.howitworkssection.stashandearn.heading}</p>
+              <p className={cn(`text-[16px] font-medium leading-[24px] tracking-[-0.02em] lg:text-[24px]  lg:leading-[32px] lg:tracking-[-0.02em] `, "font-montserrat lg:text-[24px] lg:font-medium lg:leading-[32px] lg:tracking-[-0.02em] text-left")}>{data.howitworkssection.stashandearn.subheading}</p>
               {activeImage === 1 &&
                 <motion.span
                   initial={{ width: "-4%" }}
@@ -111,8 +112,8 @@ export default function Overview() {
           </>
           <>
             <button onClick={() => setActiveImage(2)} className={cn(' relative overflow-hidden w-full py-8 flex flex-col gap-2 pl-10 pr-10  ', activeImage === 2 && " bg-[#FFFFF0] text-black pl-8 pr-14 py-10 gap-4 lg:gap-16  lg:rounded-3xl")}>
-              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 2 && "lg:text-[42px] text-black lg:font-bold lg:leading-[50.23px] text-left")}>Set Goals</p>
-              <p className={cn(`text-[16px] font-medium leading-[24px] tracking-[-0.02em] lg:text-[24px]  lg:leading-[32px] lg:tracking-[-0.02em] `, "font-montserrat lg:text-[24px] lg:font-medium lg:leading-[32px] lg:tracking-[-0.02em] text-left")}>Decide how much you want to save or invest.</p>
+              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 2 && "lg:text-[42px] text-black lg:font-bold lg:leading-[50.23px] text-left")}>{data.howitworkssection.setgoals.heading}</p>
+              <p className={cn(`text-[16px] font-medium leading-[24px] tracking-[-0.02em] lg:text-[24px]  lg:leading-[32px] lg:tracking-[-0.02em] `, "font-montserrat lg:text-[24px] lg:font-medium lg:leading-[32px] lg:tracking-[-0.02em] text-left")}>{data.howitworkssection.setgoals.subheading}</p>
               {activeImage === 2 &&
                 <motion.span
                   initial={{ width: "0%" }}
