@@ -125,11 +125,11 @@ export const data = {
         list: [
             {
                 name: 'Why Us?',
-                href: '#whyusssection'
+                href: '#howitworkssection'
             },
             {
                 name: 'Services',
-                href: '#servicessection'
+                href: '#beforeaftersection'
             },
             {
                 name: 'Benefits',

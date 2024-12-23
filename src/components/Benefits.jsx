@@ -13,33 +13,34 @@ import paypalicon from '@/../public/logos/paypalicon.png'
 import blueborder from '@/../public/blueborder.png'
 import { icons } from '@/icons'
 import { data } from '@/data'
+import Smoothup from './smoothup'
 
 export default function Benefits() {
   return (
     <section id='benefitssection' className=' py-32 px-3 xl:px-0 text-black dark:text-white '>
-      <div className=' flex flex-col items-center gap-1'>
+      <Smoothup className=' flex flex-col items-center gap-1'>
         <div className=' h-16 w-[17rem] overflow-hidden '>
           <Image alt='bonsaitree' src={BonsaiTree} className='w-[17rem] h-[17rem] -mt-36 object-cover'></Image>
         </div>
         <h1 className='text-[46px] font-bold leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717] dark:text-white'>{data.benefitssection.heading}</h1>
         <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717] dark:text-white '>{data.beforeaftersection.subheading}</p>
-      </div>
+      </Smoothup>
       <div className=' grid grid-cols-1 lg:grid-cols-2 max-w-6xl xl:max-w-7xl mx-auto gap-6  mt-16'>
-        <div className=' w-full xl:w-[39.25rem]  h-[40.625rem] flex flex-col items-center relative overflow-hidden rounded-[1.5rem] border border-solid border-black/20 bg-[#F6F6E9] dark:bg-white/5 dark:border-white/20'>
+        <Smoothup className=' w-full xl:w-[39.25rem]  h-[40.625rem] flex flex-col items-center relative overflow-hidden rounded-[1.5rem] border border-solid border-black/20 bg-[#F6F6E9] dark:bg-white/5 dark:border-white/20'>
           <div className=' px-6 pt-6 flex flex-col gap-3'>
             <h1 className='text-2xl font-semibold leading-[1.83rem] tracking-[-0.02em] text-left text-custom'>{data.benefitssection.list[0].title}</h1>
             <p className=' text-lg font-medium opacity-70'>{data.benefitssection.list[0].description}</p>
           </div>
           <Image alt='image1' className='w-[18.4375rem] sm:w-[22rem] h-[46.875rem] border-8 border-black/20 mt-6 dark:border-white/20 lg:mt-14 rounded-[1.9rem] ' src={image1} ></Image>
-        </div>
-        <div className=' w-full xl:w-[39.25rem]  h-[40.625rem] flex flex-col items-center relative overflow-hidden rounded-[1.5rem] border border-solid border-black/20 bg-[#F6F6E9] dark:bg-white/5 dark:border-white/20'>
+        </Smoothup>
+        <Smoothup className=' w-full xl:w-[39.25rem]  h-[40.625rem] flex flex-col items-center relative overflow-hidden rounded-[1.5rem] border border-solid border-black/20 bg-[#F6F6E9] dark:bg-white/5 dark:border-white/20'>
           <div className=' px-6 pt-6 flex flex-col gap-3'>
             <h1 className='text-2xl font-semibold leading-[1.83rem] tracking-[-0.02em] text-left text-custom'>{data.benefitssection.list[1].title}</h1>
             <p className=' text-lg font-medium opacity-70'>{data.benefitssection.list[1].description}</p>
           </div>
           <Image alt='image2' className='w-[18.4375rem] sm:w-[22rem] h-[46.875rem] border-8 border-black/20 mt-6 dark:border-white/20 lg:mt-14 rounded-[1.9rem] ' src={image2} ></Image>
-        </div>
-        <div className=' w-full xl:w-[39.25rem]  h-[40.625rem] flex flex-col items-center relative overflow-hidden rounded-[1.5rem] border border-solid border-black/20 bg-[#F6F6E9] dark:bg-white/5 dark:border-white/20'>
+        </Smoothup>
+        <Smoothup className=' w-full xl:w-[39.25rem]  h-[40.625rem] flex flex-col items-center relative overflow-hidden rounded-[1.5rem] border border-solid border-black/20 bg-[#F6F6E9] dark:bg-white/5 dark:border-white/20'>
           <div className=' px-6 pt-6 flex flex-col gap-3'>
             <h1 className='text-2xl font-semibold leading-[1.83rem] tracking-[-0.02em] text-left text-custom'>{data.benefitssection.list[2].title}</h1>
             <p className=' text-lg font-medium opacity-70'>{data.benefitssection.list[2].description}</p>
@@ -50,8 +51,8 @@ export default function Benefits() {
             <icons.bluelightray className="absolute top-[23%]  sm:top-[25%] scale-[0.8] sm:scale-[0.97] -left-[4.5rem] sm:-left-10"></icons.bluelightray>
             <Image className='rounded-[1.6rem] h-full w-full ' alt='communityimage2' src={image3} ></Image>
           </div>
-        </div>
-        <div className=' w-full xl:w-[39.25rem]  h-[40.625rem] flex flex-col items-center relative overflow-hidden rounded-[1.5rem] border border-solid border-black/20 bg-[#F6F6E9] dark:bg-white/5 dark:border-white/20'>
+        </Smoothup>
+        <Smoothup className=' w-full xl:w-[39.25rem]  h-[40.625rem] flex flex-col items-center relative overflow-hidden rounded-[1.5rem] border border-solid border-black/20 bg-[#F6F6E9] dark:bg-white/5 dark:border-white/20'>
           <div className=' px-6 pt-6 flex flex-col gap-3'>
             <h1 className='text-2xl font-semibold leading-[1.83rem] tracking-[-0.02em] text-left text-custom'>{data.benefitssection.list[3].title}</h1>
             <p className=' text-lg font-medium opacity-70'>{data.benefitssection.list[3].description}</p>
@@ -67,7 +68,7 @@ export default function Benefits() {
               <Image alt='image4' src={image4} className='w-[13.29rem] h-[3.459rem]  sm:w-[17.125rem] mt-36 sm:mt-44 sm:h-[4.5rem]'></Image>
             </div>
           </div>
-        </div>
+        </Smoothup>
       </div>
     </section>
   )

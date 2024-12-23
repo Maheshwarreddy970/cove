@@ -4,11 +4,12 @@ import logo from '@/../public/logo.png'
 import Image from 'next/image'
 import { data } from '@/data'
 import whtielogo from '@/../public/coveLogoLight.png'
+import Smoothup from './smoothup'
 
 
 export default function Footer() {
   return (
-    <section className='px-6 py-6 md:px-20 md:py-10'>
+    <Smoothup className='px-6 py-6 md:px-20 md:py-10'>
       <div className=' flex flex-col md:flex-row md:justify-between gap-8 md:items-center w-full max-w-7xl mx-auto px-2 pb-6 '>
         <div>
           <Image alt='logo' className='dark:hidden h-[2rem] w-[7.6rem] ' src={logo}></Image>
@@ -46,6 +47,6 @@ export default function Footer() {
           </a>
         </div>
       </div>
-    </section>
+    </Smoothup>
   )
 }

@@ -8,6 +8,7 @@ import { Advent_Pro } from 'next/font/google';
 import { cn } from '@/lib/utils';
 import { AnimatePresence, motion } from 'framer-motion';
 import { data } from '@/data'
+import Smoothup from './smoothup'
 
 const adventpro = Advent_Pro({ weight: '700', subsets: ["latin"] });
 
@@ -28,14 +29,14 @@ export default function Howitworkssection() {
 
   return (
     <section id='howitworkssection' className={` bg-[#232526] dark:bg-[#FFFFF0] dark:text-black text-white py-24 lg:px-5 overflow-hidden`}>
-      <div className=' flex flex-col items-center gap-2.5'>
+      <Smoothup className=' flex flex-col items-center gap-2.5'>
         <div className=' h-16 w-[11.375rem] overflow-hidden '>
           <Image alt='bonsaitree' src={BonsaiTree} className='w-[11.375rem] h-[11.375rem] -mt-[5.5rem]  object-cover'></Image>
         </div>
         <h1 className='text-[46px] font-bold leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none '>{data.howitworkssection.heading}</h1>
         <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none'>{data.howitworkssection.subheading}</p>
-      </div>
-      <div className=' max-w-7xl mx-auto mt-16 flex lg:flex-row flex-col gap-[3rem] lg:px-3'>
+      </Smoothup>
+      <Smoothup className=' max-w-7xl mx-auto mt-16 flex lg:flex-row flex-col gap-[3rem] lg:px-3'>
         <div className=' w-full lg:w-[47%] '>
           <>
             <button onClick={() => setActiveImage(0)} className={cn(' relative overflow-hidden w-full py-8 flex flex-col gap-2 pl-10 pr-10  ', activeImage === 0 && " bg-[#FFFFF0] dark:bg-[#232526] dark:text-white  text-black pl-8 pr-14 py-10 gap-4 lg:gap-16  lg:rounded-3xl")}>
@@ -72,7 +73,8 @@ export default function Howitworkssection() {
                     </motion.span>
                   )}
               </AnimatePresence>
-            </div>}
+            </div>
+            }
           </>
           <>
             <button onClick={() => setActiveImage(1)} className={cn(' relative overflow-hidden w-full py-8 flex flex-col gap-2 pl-10 pr-10  ', activeImage === 1 && " bg-[#FFFFF0] dark:bg-[#232526] dark:text-white text-black pl-8 pr-14 py-10 gap-4 lg:gap-16  lg:rounded-3xl")}>
@@ -187,7 +189,7 @@ export default function Howitworkssection() {
 
           </div>
         </div>
-      </div>
+      </Smoothup>
     </section>
   )
 }
