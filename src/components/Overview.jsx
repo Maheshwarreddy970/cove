@@ -33,8 +33,8 @@ export default function Howitworkssection() {
         <div className=' h-16 w-[11.375rem] overflow-hidden '>
           <Image alt='bonsaitree' src={BonsaiTree} className='w-[11.375rem] h-[11.375rem] -mt-[5.5rem]  object-cover'></Image>
         </div>
-        <h1 className='text-[46px] font-bold leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none '>{data.howitworkssection.heading}</h1>
-        <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none'>{data.howitworkssection.subheading}</p>
+        <h1 className='text-[46px] font-bold leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-black dark:text-white '>{data.howitworkssection.heading}</h1>
+        <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center text-black dark:text-white decoration-skip-ink-none'>{data.howitworkssection.subheading}</p>
       </Smoothup>
       <Smoothup className=' max-w-7xl mx-auto mt-16 flex lg:flex-row flex-col gap-[3rem] lg:px-3'>
         <div className=' w-full lg:w-[47%] '>
