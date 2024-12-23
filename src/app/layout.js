@@ -1,10 +1,12 @@
+
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-import Nabbar from "@/components/Navbar";
+import Navbar from "@/components/Navbar";
 import { constructMetadata } from "@/lib/utils";
+import { ThemeProvider } from "next-themes";
 
 
-const montserrat = Montserrat({weight:'500', subsets: ["latin"]});
+const montserrat = Montserrat({ weight: '500', subsets: ["latin"] });
 
 
 export const metadata = constructMetadata()
@@ -13,11 +15,18 @@ export default function RootLayout({ children }) {
   return (
     <html lang="en">
       <body
-        className={`${montserrat.className} bg-[#FFFFF0] text-black`}
+        className={`${montserrat.className}  `}
       >
-        <Nabbar />
-        {children}
+        <ThemeProvider
+          attribute="class"
+          defaultTheme="system"
+          enableSystem
+          disableTransitionOnChange
+        >
+          <Navbar></Navbar>
+          {children}
+        </ThemeProvider>
       </body>
-    </html>
+    </html >
   );
 }

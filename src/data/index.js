@@ -4,7 +4,7 @@ export const data = {
     metadata: {
         title: "cove",
         description: "cove description",
-        url: "https://cove your url",
+        url: "https://usecove.com/",
         icon: "/logo.png",
         thumbnail: "/opengraphimage.png"
 
@@ -20,7 +20,7 @@ export const data = {
         }
     },
     trustedby: {
-        headers: "Trusted by",
+        headers: "Trusted by industry leaders",
         icons: [
             <icons.evernote></icons.evernote>,
             <icons.paypal2></icons.paypal2>,

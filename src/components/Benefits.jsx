@@ -16,13 +16,13 @@ import { data } from '@/data'
 
 export default function Benefits() {
   return (
-    <section id='benefitssection' className=' py-32 px-3 xl:px-0 '>
+    <section id='benefitssection' className=' py-32 px-3 xl:px-0 text-black '>
       <div className=' flex flex-col items-center gap-1'>
         <div className=' h-16 w-[17rem] overflow-hidden '>
           <Image alt='bonsaitree' src={BonsaiTree} className='w-[17rem] h-[17rem] -mt-36 object-cover'></Image>
         </div>
-        <h1 className='text-[46px] font-bold leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717]'>{data.benefitssection.heading}</h1>
-        <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none'>{data.beforeaftersection.subheading}</p>
+        <h1 className='text-[46px] font-bold leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717] dark:text-white'>{data.benefitssection.heading}</h1>
+        <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717] dark:text-white '>{data.beforeaftersection.subheading}</p>
       </div>
       <div className=' grid grid-cols-1 lg:grid-cols-2 max-w-6xl xl:max-w-7xl mx-auto gap-6  mt-16'>
         <div className=' w-full xl:w-[39.25rem]  h-[40.625rem] flex flex-col items-center relative overflow-hidden rounded-[1.5rem] border border-solid border-black/20 bg-[#F6F6E9]'>

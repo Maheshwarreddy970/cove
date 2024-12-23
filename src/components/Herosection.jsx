@@ -12,10 +12,10 @@ export default function Herosection() {
             <icons.lightarrays className='w-full absolute mt-[-20rem] md:mt-[-15rem] xl:mt-[-9rem] '></icons.lightarrays>
             <div className=' relative overflow-hidden'>
                 <div className=' z-30 flex justify-center mb-7'>
-                    <p className={` ${montserrat2.className} rounded-[144px] bg-white/30 border border-[#95D0DF] pt-[6px] pr-4 pb-[6px] pl-4 gap-2 font-semibold sm:text-[18px] sm:leading-[21px] text-[0.875rem] leading-[1.067rem] text-[#004248] uppercase`}>{data.herosection.herotagline}</p>
+                    <p className={` ${montserrat2.className} rounded-[144px] bg-white/30 border border-[#95D0DF] pt-[6px] pr-4 pb-[6px] pl-4 gap-2 font-semibold sm:text-[18px] sm:leading-[21px] text-[0.875rem] leading-[1.067rem] text-[#004248] dark:text-white uppercase`}>{data.herosection.herotagline}</p>
                 </div>
                 <div className='flex flex-col items-center gap-4'>
-                    <h1 className={` max-w-6xl z-30 px-8 tracking-[-0.04em] md:font-bold md:text-6xl text-black md:leading-[72px]  text-center text-5xl font-semibold leading-[45px]  ${montserrat.className}  `}>{data.herosection.heading}</h1>
+                    <h1 className={` max-w-6xl z-30 px-8 tracking-[-0.04em] md:font-bold md:text-6xl md:leading-[72px]  text-center text-5xl font-semibold leading-[45px]  ${montserrat.className}  `}>{data.herosection.heading}</h1>
                     <p className=' max-w-sm md:max-w-[40rem] z-30 font-medium text-lg text-center '>{data.herosection.subheading}</p>
                 </div>
                 <div className=' mt-28 md:mt-14 relative z-30 px-5 xl:px-0 '>
@@ -42,7 +42,7 @@ export default function Herosection() {
                 </div>
                 <div className='px-5 xl:px-0  flex flex-col sm:flex-row z-30 justify-center items-center gap-4 mt-[3.2rem]'>
                     <a href={data.herosection.buttonslinks.appstore} className='z-30 w-full sm:w-auto text-base text-center font-semibold px-10 py-3  p-3 rounded-full border border-black bg-gradient-to-r from-[#6ACE57] to-[#07C8E6] flex gap-3 items-center'><icons.appleicon></icons.appleicon> Get it on App Store</a>
-                    <a href={data.herosection.buttonslinks.playstore} className=' z-30 w-full sm:w-auto text-base text-center font-semibold px-10 py-3  p-3 rounded-full border border-black bg-white flex gap-3 items-center'><icons.playstoreicon></icons.playstoreicon> Get it on Play Store </a>
+                    <a href={data.herosection.buttonslinks.playstore} className=' z-30 w-full sm:w-auto text-base text-center font-semibold px-10 py-3  p-3 rounded-full border border-black bg-white dark:bg-black flex gap-3 items-center'><icons.playstoreicon></icons.playstoreicon> Get it on Play Store </a>
                 </div>
                 <div className=' mt-5 flex flex-col items-center gap-4 h-[18rem] md:h-[28rem] '>
                     <p className='font-semibold text-sm px-6 xl:px-0  z-30 text-white text-center'>{data.herosection.insurance}</p>

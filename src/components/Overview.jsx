@@ -39,8 +39,8 @@ export default function Howitworkssection() {
         <div className=' w-full lg:w-[47%] '>
           <>
             <button onClick={() => setActiveImage(0)} className={cn(' relative overflow-hidden w-full py-8 flex flex-col gap-2 pl-10 pr-10  ', activeImage === 0 && " bg-[#FFFFF0] text-black pl-8 pr-14 py-10 gap-4 lg:gap-16  lg:rounded-3xl")}>
-              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 0 && "lg:text-[42px] text-black lg:font-bold lg:leading-[50.23px] text-left")}>{data.howitworkssection.signup.heading}</p>
-              <p className={cn(`text-[16px] font-medium leading-[24px] tracking-[-0.02em] lg:text-[24px]  lg:leading-[32px] lg:tracking-[-0.02em] `, "font-montserrat lg:text-[24px] lg:font-medium lg:leading-[32px] lg:tracking-[-0.02em] text-left")}>{data.howitworkssection.signup.subheading}</p>
+              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 0 && `lg:text-[42px] text-black lg:font-bold lg:leading-[50.23px]  text-left`)}>{data.howitworkssection.signup.heading}</p>
+              <p style={{ fontFamily: `${adventpro.style.fontFamily} !important` }} className={cn(`text-[16px] font-medium leading-[24px] tracking-[-0.02em] lg:text-[24px]  lg:leading-[32px] lg:tracking-[-0.02em] `, "font-montserrat lg:text-[24px] lg:font-medium lg:leading-[32px] lg:tracking-[-0.02em] text-left")}>{data.howitworkssection.signup.subheading}</p>
               {
                 activeImage === 0 &&
                 <motion.span
@@ -76,8 +76,8 @@ export default function Howitworkssection() {
           </>
           <>
             <button onClick={() => setActiveImage(1)} className={cn(' relative overflow-hidden w-full py-8 flex flex-col gap-2 pl-10 pr-10  ', activeImage === 1 && " bg-[#FFFFF0] text-black pl-8 pr-14 py-10 gap-4 lg:gap-16  lg:rounded-3xl")}>
-              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 1 && "lg:text-[42px] text-black lg:font-bold lg:leading-[50.23px] text-left")}>{data.howitworkssection.stashandearn.heading}</p>
-              <p className={cn(`text-[16px] font-medium leading-[24px] tracking-[-0.02em] lg:text-[24px]  lg:leading-[32px] lg:tracking-[-0.02em] `, "font-montserrat lg:text-[24px] lg:font-medium lg:leading-[32px] lg:tracking-[-0.02em] text-left")}>{data.howitworkssection.stashandearn.subheading}</p>
+              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 1 && "lg:text-[42px] lg:font-bold lg:leading-[50.23px] text-black text-left")}>{data.howitworkssection.stashandearn.heading}</p>
+              <p style={{ fontFamily: `${adventpro.style.fontFamily} !important` }} className={cn(`text-[16px] font-medium leading-[24px] tracking-[-0.02em] lg:text-[24px]  lg:leading-[32px] lg:tracking-[-0.02em] `, "font-montserrat lg:text-[24px] lg:font-medium lg:leading-[32px] lg:tracking-[-0.02em] text-left")}>{data.howitworkssection.stashandearn.subheading}</p>
               {activeImage === 1 &&
                 <motion.span
                   initial={{ width: "-4%" }}
@@ -112,8 +112,8 @@ export default function Howitworkssection() {
           </>
           <>
             <button onClick={() => setActiveImage(2)} className={cn(' relative overflow-hidden w-full py-8 flex flex-col gap-2 pl-10 pr-10  ', activeImage === 2 && " bg-[#FFFFF0] text-black pl-8 pr-14 py-10 gap-4 lg:gap-16  lg:rounded-3xl")}>
-              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 2 && "lg:text-[42px] text-black lg:font-bold lg:leading-[50.23px] text-left")}>{data.howitworkssection.setgoals.heading}</p>
-              <p className={cn(`text-[16px] font-medium leading-[24px] tracking-[-0.02em] lg:text-[24px]  lg:leading-[32px] lg:tracking-[-0.02em] `, "font-montserrat lg:text-[24px] lg:font-medium lg:leading-[32px] lg:tracking-[-0.02em] text-left")}>{data.howitworkssection.setgoals.subheading}</p>
+              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 2 && "lg:text-[42px] lg:font-bold lg:leading-[50.23px] text-black text-left")}>{data.howitworkssection.setgoals.heading}</p>
+              <p style={{ fontFamily: `${adventpro.style.fontFamily} !important` }} className={cn(`text-[16px] font-medium leading-[24px] tracking-[-0.02em] lg:text-[24px]  lg:leading-[32px] lg:tracking-[-0.02em] `, "font-montserrat lg:text-[24px] lg:font-medium lg:leading-[32px] lg:tracking-[-0.02em] text-left")}>{data.howitworkssection.setgoals.subheading}</p>
               {activeImage === 2 &&
                 <motion.span
                   initial={{ width: "0%" }}

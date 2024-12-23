@@ -11,11 +11,11 @@ export default function OldNew() {
     <section id='beforeaftersection' className=' max-w-7xl xl:mx-auto mt-24 sm:mt-32 px-4 xl:px-0 pb-16 '>
       <div className=' flex flex-col items-center gap-3'>
         <Image src={Coral4kDigitalAsset} alt='Coral' className='w-[7.5rem] h-[7.5rem]'></Image>
-        <h1 className='md:text-[46px] md:font-bold md:leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717] text-[2.5rem] font-bold leading-[2.75rem]'>{data.beforeaftersection.title}</h1>
+        <h1 className='md:text-[46px] md:font-bold md:leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717]  text-[2.5rem] font-bold leading-[2.75rem]'>{data.beforeaftersection.title}</h1>
         <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none'>{data.beforeaftersection.subheading}</p>
       </div>
       <div className=' grid grid-cols-1 md:grid-cols-2 gap-8 mt-14'>
-        <div className='rounded-[0.75rem] overflow-hidden relative border pt-6 pr-10 pb-6 pl-10 gap-6 bg-[#F6F6E9] border-[#D0D0BB] w-full h-[600px] lg:h-[540px] border-t'>
+        <div className='rounded-[0.75rem] overflow-hidden relative border pt-6 pr-10 pb-6 pl-10 gap-6 bg-[#F6F6E9] border-[#D0D0BB] text-[#171717] w-full h-[600px] lg:h-[540px] border-t'>
           <h1 className='text-[2rem] font-bold leading-[2.6rem] tracking-[-0.02em] text-left'>Before</h1>
           <div className=' text-[18px] mt-6 font-medium leading-[28px] text-left flex flex-col gap-4  decoration-skip-ink-none'>
             <ul className=' text-[18px] mt-6 font-medium leading-[28px] text-left flex flex-col gap-4  decoration-skip-ink-none'>

@@ -27,7 +27,7 @@ export default function Footer() {
         </a>
       </div>
       <div className=' flex flex-col md:flex-row md:justify-between gap-8 md:items-center w-full max-w-7xl mx-auto  pt-5 border-t  '>
-        <p className=" text-black/50 font-inter text-sm font-normal leading-5 text-left underline-position-from-font decoration-skip-ink-none ">
+        <p className=" text-black/50 dark:text-white/50 font-inter text-sm font-normal leading-5 text-left underline-position-from-font decoration-skip-ink-none ">
           Copyright &copy; {new Date().getFullYear()}. All Rights Reserved.
         </p>
         <div className=' flex gap-2 items-center'>

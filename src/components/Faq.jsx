@@ -20,8 +20,8 @@ export const Faq = () => {
         <div className=' w-[12.875rem] h-[4rem] overflow-hidden  '>
           <Image alt="BonsaiTree" src={BonsaiTree} className='w-[12.875rem]  h-[12.875rem] -mt-28'></Image>
         </div>
-        <h1 className=' px-3 text-[40px] md:text-[46px] font-bold leading-[48px] md:leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717]'>{data.faqsection.title}</h1>
-        <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none'>{data.faqsection.subheading}</p>
+        <h1 className=' px-3 text-[40px] md:text-[46px] font-bold leading-[48px] md:leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717] dark:text-white'>{data.faqsection.heading}</h1>
+        <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717] dark:text-white'>{data.faqsection.subheading}</p>
       </div>
       <div className="max-w-5xl flex w-full md:flex-row flex-col gap-9 md:gap-5">
         <Accordion>
@@ -88,7 +88,7 @@ const AccordionItem = ({
             close: { rotate: 180 },
           }}
           transition={{ duration: 0.5, stiffness: 150, type: "spring" }}
-        className=" mt-2"
+          className=" mt-2"
         >
           <icons.chevron />
         </motion.div>
