@@ -8,7 +8,7 @@ import { data } from '@/data'
 
 export default function OldNew() {
   return (
-    <section className=' max-w-7xl xl:mx-auto mt-24 sm:mt-32 px-4 xl:px-0 pb-16 '>
+    <section id='beforeaftersection' className=' max-w-7xl xl:mx-auto mt-24 sm:mt-32 px-4 xl:px-0 pb-16 '>
       <div className=' flex flex-col items-center gap-3'>
         <Image src={Coral4kDigitalAsset} alt='Coral' className='w-[7.5rem] h-[7.5rem]'></Image>
         <h1 className='md:text-[46px] md:font-bold md:leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717] text-[2.5rem] font-bold leading-[2.75rem]'>{data.beforeaftersection.title}</h1>

@@ -16,7 +16,7 @@ import { data } from '@/data'
 
 export default function Benefits() {
   return (
-    <section className=' py-32 px-3 xl:px-0 '>
+    <section id='benefitssection' className=' py-32 px-3 xl:px-0 '>
       <div className=' flex flex-col items-center gap-1'>
         <div className=' h-16 w-[17rem] overflow-hidden '>
           <Image alt='bonsaitree' src={BonsaiTree} className='w-[17rem] h-[17rem] -mt-36 object-cover'></Image>

@@ -30,8 +30,8 @@ export default function Nabbar() {
                         )
                     }
                 </div>
-                <a href={data.navigationbar.buttonslinks.gettheapp}  className='hidden md:block bg-black gap-2 rounded-[144px] py-2.5 px-8 text-lg text-white font-bold'>
-                    Get the App
+                <a href={data.navigationbar.buttonslinks.gettheapp}  className='hidden md:block bg-black gap-2 rounded-[144px] py-2.5 px-8 text-base text-white font-bold'>
+                    Learn More
                 </a>
                 <MenuToggle isMenuOpen={isMenuOpen} setMenuOpen={setMenuOpen} />
             </div>

@@ -22,9 +22,9 @@ export default function Footer() {
             )
           }
         </div>
-        <div className='font-normal text-sm'>
+        <a href={data.footer.privacypolicy} className='font-normal text-sm'>
           Privacy Policy
-        </div>
+        </a>
       </div>
       <div className=' flex flex-col md:flex-row md:justify-between gap-8 md:items-center w-full max-w-7xl mx-auto  pt-5 border-t  '>
         <p className=" text-black/50 font-inter text-sm font-normal leading-5 text-left underline-position-from-font decoration-skip-ink-none ">

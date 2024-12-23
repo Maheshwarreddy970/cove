@@ -41,8 +41,8 @@ export default function Herosection() {
                     </div>
                 </div>
                 <div className='px-5 xl:px-0  flex flex-col sm:flex-row z-30 justify-center items-center gap-4 mt-[3.2rem]'>
-                    <a href={data.herosection.buttonslinks.sighup} className='z-30 w-full sm:w-auto text-base text-center font-semibold px-10 py-3  p-3 rounded-full border border-black bg-gradient-to-r from-[#6ACE57] to-[#07C8E6]'>Sign Up Now</a>
-                    <a href={data.herosection.buttonslinks.learnmore} className=' z-30 w-full sm:w-auto text-base text-center font-semibold px-10 py-3  p-3 rounded-full border border-black bg-white'>Learn More </a>
+                    <a href={data.herosection.buttonslinks.appstore} className='z-30 w-full sm:w-auto text-base text-center font-semibold px-10 py-3  p-3 rounded-full border border-black bg-gradient-to-r from-[#6ACE57] to-[#07C8E6] flex gap-3 items-center'><icons.appleicon></icons.appleicon> Get it on App Store</a>
+                    <a href={data.herosection.buttonslinks.playstore} className=' z-30 w-full sm:w-auto text-base text-center font-semibold px-10 py-3  p-3 rounded-full border border-black bg-white flex gap-3 items-center'><icons.playstoreicon></icons.playstoreicon> Get it on Play Store </a>
                 </div>
                 <div className=' mt-5 flex flex-col items-center gap-4 h-[18rem] md:h-[28rem] '>
                     <p className='font-semibold text-sm px-6 xl:px-0  z-30 text-white text-center'>{data.herosection.insurance}</p>

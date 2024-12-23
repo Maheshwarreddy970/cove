@@ -27,7 +27,7 @@ export default function Howitworkssection() {
   }, [])
 
   return (
-    <section className={` bg-[#232526] text-white py-24 lg:px-5 overflow-hidden`}>
+    <section id='howitworkssection' className={` bg-[#232526] text-white py-24 lg:px-5 overflow-hidden`}>
       <div className=' flex flex-col items-center gap-2.5'>
         <div className=' h-16 w-[11.375rem] overflow-hidden '>
           <Image alt='bonsaitree' src={BonsaiTree} className='w-[11.375rem] h-[11.375rem] -mt-[5.5rem]  object-cover'></Image>

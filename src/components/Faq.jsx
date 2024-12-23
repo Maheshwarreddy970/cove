@@ -15,7 +15,7 @@ export const Faq = () => {
   const [accordionOpen, setAccordionOpen] = useState(0);
 
   return (
-    <section className="flex flex-col items-center pt-20 pb-10  ">
+    <section id="faqsection" className="flex flex-col items-center pt-20 pb-10  ">
       <div className=' flex flex-col items-center gap-1'>
         <div className=' w-[12.875rem] h-[4rem] overflow-hidden  '>
           <Image alt="BonsaiTree" src={BonsaiTree} className='w-[12.875rem]  h-[12.875rem] -mt-28'></Image>

@@ -15,8 +15,8 @@ export const data = {
         subheading: "The only gamified finance app for young adults that makes saving and investing simple, rewarding, and fun.",
         insurance: "Protected by FDIC and SIPC insurance for peace of mind.",
         buttonslinks: {
-            sighup: "/sighup",
-            learnmore: "/learnmore"
+            appstore: "https://apps.apple.com/us/app/cove-your-money-haven/id1589645033",
+            playstore: "https://play.google.com/store/apps/details?id=com.EdenFinancialTechnologies.Eden"
         }
     },
     trustedby: {
@@ -141,10 +141,11 @@ export const data = {
                 href: '#faqsection'
             },
         ],
+        privacypolicy:"https://usecove.com/privacy-policy.pdf",
         socialmedia: {
-            instagram: "//instagram",
-            linkedin: "//linkedin",
-            facebook: "//facebook"
+            instagram: "https://www.instagram.com/use.cove/",
+            linkedin: "https://www.linkedin.com/company/usecove/",
+            facebook: "https://www.facebook.com/people/Cove-App/100070767042300/"
         }
     },
     navigationbar: {
@@ -159,16 +160,16 @@ export const data = {
             },
             {
                 name: 'Industries',
-                href: '#industriessection'
+                href: '#beforeaftersection'
 
             },
             {
                 name: 'Features',
-                href: '#featuressection'
+                href: '#benefitssection'
             }
         ],
         buttonslinks: {
-            gettheapp:"/getapp"
+            gettheapp:"https://apps.apple.com/us/app/cove-your-money-haven/id1589645033"
         }
     },
 }
