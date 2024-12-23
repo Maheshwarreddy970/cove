@@ -16,7 +16,7 @@ export default function Footer() {
           <Image alt='logo' className='hidden dark:block h-[2rem] w-[7.6rem] ' src={whtielogo}></Image>
 
         </div>
-        <div className='flex gap-6 font-normal dark:text-white text-sm'>
+        <div className='flex gap-6 font-normal text-black dark:text-white text-sm'>
           {
             data.footer.list.map((item, index) => (
               <a href={item.href} key={index}>
@@ -26,7 +26,7 @@ export default function Footer() {
             )
           }
         </div>
-        <a href={data.footer.privacypolicy} className='font-normal dark:text-white text-sm'>
+        <a href={data.footer.privacypolicy} className='font-normal text-black dark:text-white text-sm'>
           Privacy Policy
         </a>
       </div>

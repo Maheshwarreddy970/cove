@@ -2,8 +2,8 @@ import { icons } from '@/icons'
 
 export const data = {
     metadata: {
-        title: "cove",
-        description: "cove description",
+        title: "Cove",
+        description: "More than Just a Finance App. Creative saving. Stash money on your island with decorations and unleash your creativity",
         url: "https://usecove.com/",
         icon: "/logo.png",
         thumbnail: "https://cove-tau.vercel.app/opengraphimage.png"

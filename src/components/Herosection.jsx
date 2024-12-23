@@ -23,7 +23,7 @@ export default function Herosection() {
                 </Smoothup>
                 <Smoothup delay={0.2} className='flex flex-col items-center gap-4'>
                     <h1 className={` max-w-6xl z-30 px-8 tracking-[-0.04em] md:font-bold md:text-6xl md:leading-[72px]  text-center text-5xl font-semibold leading-[45px] text-black ${montserrat.className}  `}>{data.herosection.heading}</h1>
-                    <p className=' max-w-sm md:max-w-[40rem] z-30 font-medium text-lg text-center '>{data.herosection.subheading}</p>
+                    <p className=' max-w-sm md:max-w-[40rem] z-30 font-medium text-lg text-center text-black'>{data.herosection.subheading}</p>
                 </Smoothup>
                 <div className=' mt-28 md:mt-14 relative z-30 px-5 xl:px-0 '>
                     <Smoothup delay={0.4} className='max-w-[67rem] z-30   mx-auto border rounded-xl md:rounded-full bg-black/20 border-white/50 md:flex backdrop-blur-[1px]  '>
