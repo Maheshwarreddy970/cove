@@ -21,8 +21,7 @@ export default function Nabbar() {
         <nav className={cn(' z-50  w-full absolute top-0 ' )} >
             <div className='max-w-7xl w-full  py-5 px-5 mx-auto flex justify-between items-center'>
                 <div>
-                    <Image alt='logo' className=' dark:hidden h-[2rem] w-[7.6rem] dark:invert ' src={logo}></Image>
-                    <Image alt='logo' className='hidden dark:block h-[2rem] w-[7.6rem] dark:invert ' src={whtielogo}></Image>
+                    <Image alt='logo' className='  h-[2rem] w-[7.6rem] ' src={logo}></Image>
                 </div>
                 <div className=' hidden md:flex gap-6 text-black '>
                     {
@@ -48,11 +47,11 @@ export default function Nabbar() {
                 </div>
             </div>
             {isMenuOpen && (
-                <div className="flex  p-5 md:hidden h-full flex-col text-lg gap-6 w-[80%] mx-auto bg-[#FFFFF0] pt-6 rounded-2xl text-center">
+                <div className="flex  p-5 md:hidden h-full flex-col text-lg gap-6 w-[80%] text-black mx-auto bg-[#FFFFF0] pt-6 rounded-2xl text-center">
                     {data.navigationbar.list.map((item, index) => (
                         <a
                             key={index}
-                            className=''
+                            className='text-black'
                             href={item.href}
                         >
                             {item.name}
@@ -70,7 +69,7 @@ export default function Nabbar() {
 function MenuToggle({ isMenuOpen, setMenuOpen }) {
     return (
         <button
-            className={cn(" ")}
+            className={cn(" text-black ")}
             onClick={() => setMenuOpen(!isMenuOpen)}
         >
             {!isMenuOpen ? <icons.meanuelines></icons.meanuelines> : <icons.crossicon></icons.crossicon>}
