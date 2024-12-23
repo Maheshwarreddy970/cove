@@ -60,7 +60,7 @@ export const icons = {
             <svg
                 width="20"
                 height="21"
-                className="dark:fill-white fill-current"
+                className="dark:fill-white dark:text-white fill-current"
                 viewBox="0 0 20 21"
                 xmlns="http://www.w3.org/2000/svg"
             >
