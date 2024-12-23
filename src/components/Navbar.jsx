@@ -47,7 +47,7 @@ export default function Nabbar() {
                 </div>
             </div>
             {isMenuOpen && (
-                <div className="flex  p-5 md:hidden h-full flex-col text-lg gap-6 w-[80%] text-black mx-auto bg-[#FFFFF0] pt-6 rounded-2xl text-center">
+                <div className="flex  p-5 md:hidden h-full flex-col text-lg gap-6 w-[85%] text-black mx-auto bg-[#FFFFF0] pt-6 rounded-2xl text-center">
                     {data.navigationbar.list.map((item, index) => (
                         <a
                             key={index}
