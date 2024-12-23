@@ -2,6 +2,7 @@
 
 import React from 'react'
 import logo from '@/../public/logo.png'
+import whtielogo from '@/../public/coveLogoLight.png'
 import Image from 'next/image'
 import { icons } from '@/icons'
 import { useState } from "react";
@@ -19,7 +20,8 @@ export default function Nabbar() {
         <nav className={cn(' z-50  w-full absolute top-0 ', isMenuOpen && 'backdrop-blur-lg md:backdrop-blur-0 md:absolute md:h-auto fixed  h-screen')} >
             <div className='max-w-7xl w-full  py-5 px-5 mx-auto flex justify-between items-center'>
                 <div>
-                    <Image alt='logo' className=' h-[2rem] w-[7.6rem] dark:invert ' src={logo}></Image>
+                    <Image alt='logo' className=' dark:hidden h-[2rem] w-[7.6rem] dark:invert ' src={logo}></Image>
+                    <Image alt='logo' className='hidden dark:block h-[2rem] w-[7.6rem] dark:invert ' src={whtielogo}></Image>
                 </div>
                 <div className=' hidden md:flex gap-6 text-black dark:text-white'>
                     {

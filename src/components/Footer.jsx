@@ -3,6 +3,7 @@ import { icons } from '@/icons'
 import logo from '@/../public/logo.png'
 import Image from 'next/image'
 import { data } from '@/data'
+import whtielogo from '@/../public/coveLogoLight.png'
 
 
 export default function Footer() {
@@ -10,7 +11,9 @@ export default function Footer() {
     <section className='px-6 py-6 md:px-20 md:py-10'>
       <div className=' flex flex-col md:flex-row md:justify-between gap-8 md:items-center w-full max-w-7xl mx-auto px-2 pb-6 '>
         <div>
-          <Image alt='logo' className=' h-[2rem] w-[7.6rem] ' src={logo}></Image>
+          <Image alt='logo' className='dark:hidden h-[2rem] w-[7.6rem] ' src={logo}></Image>
+          <Image alt='logo' className='hidden dark:block h-[2rem] w-[7.6rem] dark:invert ' src={whtielogo}></Image>
+
         </div>
         <div className='flex gap-6 font-normal text-sm'>
           {
