@@ -23,7 +23,7 @@ export default function Nabbar() {
                     <Image alt='logo' className=' dark:hidden h-[2rem] w-[7.6rem] dark:invert ' src={logo}></Image>
                     <Image alt='logo' className='hidden dark:block h-[2rem] w-[7.6rem] dark:invert ' src={whtielogo}></Image>
                 </div>
-                <div className=' hidden md:flex gap-6 text-black dark:text-white'>
+                <div className=' hidden md:flex gap-6 text-black '>
                     {
                         data.navigationbar.list.map((item, index) => (
                             <a href={item.href} key={index}>
@@ -35,7 +35,7 @@ export default function Nabbar() {
                 </div>
                 <div className=' flex  gap-4'>
                     <ThemeToggle></ThemeToggle>
-                    <a href={data.navigationbar.buttonslinks.gettheapp} className='hidden md:block bg-black dark:bg-white gap-2 rounded-[144px] py-2.5 px-8 text-base text-white dark:text-black font-bold'>
+                    <a href={data.navigationbar.buttonslinks.gettheapp} className='hidden md:block bg-black gap-2 rounded-[144px] py-2.5 px-8 text-base text-white font-bold'>
                         Learn More
                     </a>
 

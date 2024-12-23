@@ -20,7 +20,7 @@ export default function ThemeToggle() {
                 <icons.moonicon />
             </span>
             <span className='hidden   p-2.5 rounded-full bg-white  dark:flex justify-center '>
-                <icons.sunicon className=' size-5  ' />
+                <icons.sunicon className='  ' />
             </span>
         </button>
     )

@@ -6,7 +6,7 @@ export const data = {
         description: "cove description",
         url: "https://usecove.com/",
         icon: "/logo.png",
-        thumbnail: "/opengraphimage.png"
+        thumbnail: "https://cove-tau.vercel.app/opengraphimage.png"
 
     },
     herosection: {

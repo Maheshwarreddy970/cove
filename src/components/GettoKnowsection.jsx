@@ -12,10 +12,10 @@ export default function GettoKnowsection() {
           <Image alt='BonsaiTree' src={BonsaiTree} className='w-[6.2rem] -mt-3 h-[6.2rem]'></Image>
         </div>
         <h1 className=' text-[2.5rem] font-bold leading-[3rem] lg:text-[46px] lg:leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717] dark:text-white'>{data.gettoknowussection.heading}</h1>
-        <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none'>{data.gettoknowussection.subheading}</p>
+        <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none dark:text-white'>{data.gettoknowussection.subheading}</p>
       </div>
       <div className='flex flex-col lg:flex-row px-4 gap-10 max-w-[77rem] mx-auto mt-14'>
-        <div className=' w-full lg:w-[65%]  p-[1.5rem] flex flex-col gap-[1.5rem] bg-[#F6F6E9] text-black rounded-3xl'>
+        <div className=' w-full lg:w-[65%]  p-[1.5rem] flex flex-col gap-[1.5rem] bg-[#F6F6E9] dark:bg-white/20 dark:text-white text-black rounded-3xl'>
           <h1 className=' text-[1rem] md:text-[1.25rem] font-semibold leading-[1.875rem] tracking-[-0.02em] text-left'>{data.gettoknowussection.title}</h1>
           {data.gettoknowussection.list.map((text, index) => (
             <p key={index} className="text-[1rem] md:text-[1.25rem] font-medium leading-[1.875rem] tracking-[-0.02em] text-left">

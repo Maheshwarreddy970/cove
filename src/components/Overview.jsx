@@ -27,7 +27,7 @@ export default function Howitworkssection() {
   }, [])
 
   return (
-    <section id='howitworkssection' className={` bg-[#232526] text-white py-24 lg:px-5 overflow-hidden`}>
+    <section id='howitworkssection' className={` bg-[#232526] dark:bg-[#FFFFF0] dark:text-black text-white py-24 lg:px-5 overflow-hidden`}>
       <div className=' flex flex-col items-center gap-2.5'>
         <div className=' h-16 w-[11.375rem] overflow-hidden '>
           <Image alt='bonsaitree' src={BonsaiTree} className='w-[11.375rem] h-[11.375rem] -mt-[5.5rem]  object-cover'></Image>
@@ -38,8 +38,8 @@ export default function Howitworkssection() {
       <div className=' max-w-7xl mx-auto mt-16 flex lg:flex-row flex-col gap-[3rem] lg:px-3'>
         <div className=' w-full lg:w-[47%] '>
           <>
-            <button onClick={() => setActiveImage(0)} className={cn(' relative overflow-hidden w-full py-8 flex flex-col gap-2 pl-10 pr-10  ', activeImage === 0 && " bg-[#FFFFF0] text-black pl-8 pr-14 py-10 gap-4 lg:gap-16  lg:rounded-3xl")}>
-              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 0 && `lg:text-[42px] text-black lg:font-bold lg:leading-[50.23px]  text-left`)}>{data.howitworkssection.signup.heading}</p>
+            <button onClick={() => setActiveImage(0)} className={cn(' relative overflow-hidden w-full py-8 flex flex-col gap-2 pl-10 pr-10  ', activeImage === 0 && " bg-[#FFFFF0] dark:bg-[#232526] dark:text-white  text-black pl-8 pr-14 py-10 gap-4 lg:gap-16  lg:rounded-3xl")}>
+              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 0 && `lg:text-[42px] dark:text-white text-black lg:font-bold lg:leading-[50.23px]  text-left`)}>{data.howitworkssection.signup.heading}</p>
               <p style={{ fontFamily: `${adventpro.style.fontFamily} !important` }} className={cn(`text-[16px] font-medium leading-[24px] tracking-[-0.02em] lg:text-[24px]  lg:leading-[32px] lg:tracking-[-0.02em] `, "font-montserrat lg:text-[24px] lg:font-medium lg:leading-[32px] lg:tracking-[-0.02em] text-left")}>{data.howitworkssection.signup.subheading}</p>
               {
                 activeImage === 0 &&
@@ -75,8 +75,8 @@ export default function Howitworkssection() {
             </div>}
           </>
           <>
-            <button onClick={() => setActiveImage(1)} className={cn(' relative overflow-hidden w-full py-8 flex flex-col gap-2 pl-10 pr-10  ', activeImage === 1 && " bg-[#FFFFF0] text-black pl-8 pr-14 py-10 gap-4 lg:gap-16  lg:rounded-3xl")}>
-              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 1 && "lg:text-[42px] lg:font-bold lg:leading-[50.23px] text-black text-left")}>{data.howitworkssection.stashandearn.heading}</p>
+            <button onClick={() => setActiveImage(1)} className={cn(' relative overflow-hidden w-full py-8 flex flex-col gap-2 pl-10 pr-10  ', activeImage === 1 && " bg-[#FFFFF0] dark:bg-[#232526] dark:text-white text-black pl-8 pr-14 py-10 gap-4 lg:gap-16  lg:rounded-3xl")}>
+              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 1 && "lg:text-[42px] dark:text-white lg:font-bold lg:leading-[50.23px] text-black text-left")}>{data.howitworkssection.stashandearn.heading}</p>
               <p style={{ fontFamily: `${adventpro.style.fontFamily} !important` }} className={cn(`text-[16px] font-medium leading-[24px] tracking-[-0.02em] lg:text-[24px]  lg:leading-[32px] lg:tracking-[-0.02em] `, "font-montserrat lg:text-[24px] lg:font-medium lg:leading-[32px] lg:tracking-[-0.02em] text-left")}>{data.howitworkssection.stashandearn.subheading}</p>
               {activeImage === 1 &&
                 <motion.span
@@ -111,8 +111,8 @@ export default function Howitworkssection() {
             </div>}
           </>
           <>
-            <button onClick={() => setActiveImage(2)} className={cn(' relative overflow-hidden w-full py-8 flex flex-col gap-2 pl-10 pr-10  ', activeImage === 2 && " bg-[#FFFFF0] text-black pl-8 pr-14 py-10 gap-4 lg:gap-16  lg:rounded-3xl")}>
-              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 2 && "lg:text-[42px] lg:font-bold lg:leading-[50.23px] text-black text-left")}>{data.howitworkssection.setgoals.heading}</p>
+            <button onClick={() => setActiveImage(2)} className={cn(' relative overflow-hidden w-full py-8 flex flex-col gap-2 pl-10 pr-10  ', activeImage === 2 && " bg-[#FFFFF0] dark:bg-[#232526] dark:text-white text-black pl-8 pr-14 py-10 gap-4 lg:gap-16  lg:rounded-3xl")}>
+              <p className={cn(`text-[32px] font-bold leading-[38.27px] lg:text-[26px] text-white/50 lg:font-extrabold lg:leading-[28px] text-left ${adventpro.className}`, activeImage === 2 && "lg:text-[42px] dark:text-white lg:font-bold lg:leading-[50.23px] text-black text-left")}>{data.howitworkssection.setgoals.heading}</p>
               <p style={{ fontFamily: `${adventpro.style.fontFamily} !important` }} className={cn(`text-[16px] font-medium leading-[24px] tracking-[-0.02em] lg:text-[24px]  lg:leading-[32px] lg:tracking-[-0.02em] `, "font-montserrat lg:text-[24px] lg:font-medium lg:leading-[32px] lg:tracking-[-0.02em] text-left")}>{data.howitworkssection.setgoals.subheading}</p>
               {activeImage === 2 &&
                 <motion.span
@@ -149,9 +149,9 @@ export default function Howitworkssection() {
             </div>}
           </>
         </div>
-        <div className='hidden lg:block w-full h-full lg:h-[38rem] 2xl:h-[35.25rem] lg:w-[63%] bg-[#191A1B] border border-white/20 rounded-3xl relative '>
+        <div className='hidden lg:block w-full h-full lg:h-[38rem] 2xl:h-[35.25rem] lg:w-[63%] bg-[#191A1B]  border border-white/20  rounded-3xl relative '>
           <Image src={Bush} alt='Bush' className=' w-[17.92rem] h-[14.66rem] absolute top-[45%] -right-64 -translate-x-1/2 -translate-y-1/2 object-cover' />
-          <div className=' bg-[#191A1B] border flex justify-center overflow-hidden border-white/20 rounded-3xl h-full w-full z-10 relative'>
+          <div className=' bg-[#191A1B] border flex justify-center overflow-hidden border-white/20 dark:border-black/10 dark:bg-[#F6F6E9]  rounded-3xl h-full w-full z-10 relative'>
             {activeImage === 0 &&
               <motion.div
                 initial={{ opacity: 0, y: 150 }}

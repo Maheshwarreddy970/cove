@@ -10,7 +10,7 @@ import Howitworkssection from "@/components/Overview";
 
 export default function Home() {
   return (
-    <main className=" bg-[#FFFFF0] dark:bg-[#1f1f1d] text-black dark:text-white">
+    <main className=" bg-[#FFFFF0] dark:bg-[#232526]">
       <Herosection></Herosection>
       <Logosection></Logosection>
       <OldNew></OldNew>

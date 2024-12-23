@@ -23,7 +23,7 @@ export const Faq = () => {
         <h1 className=' px-3 text-[40px] md:text-[46px] font-bold leading-[48px] md:leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717] dark:text-white'>{data.faqsection.heading}</h1>
         <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717] dark:text-white'>{data.faqsection.subheading}</p>
       </div>
-      <div className="max-w-5xl flex w-full md:flex-row flex-col gap-9 md:gap-5">
+      <div className="max-w-5xl flex w-full md:flex-row flex-col gap-9 md:gap-5 dark:text-white">
         <Accordion>
           {data.faqsection.list.map((item, index) => (
             <AccordionItem
@@ -71,7 +71,7 @@ const AccordionItem = ({
   return (
     <div
       className={cn(
-        "relative flex w-full border-b last:border-b-0 border-b-black/40 flex-col  overflow-hidden")}
+        "relative flex w-full border-b last:border-b-0 border-b-black/40 dark:border-b-white/20 flex-col  overflow-hidden")}
       {...props}
     >
       <button
