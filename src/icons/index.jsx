@@ -60,9 +60,8 @@ export const icons = {
             <svg
                 width="20"
                 height="21"
-                className=" fill-black dark:hidden"
+                className="dark:fill-white fill-current"
                 viewBox="0 0 20 21"
-                fill="none"
                 xmlns="http://www.w3.org/2000/svg"
             >
                 <path
@@ -75,7 +74,7 @@ export const icons = {
     },
     whitefacebook: (props) => {
         return (
-            <svg className=" hidden dark:block" width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
+            <svg className=" hidden dark:block " width="20" height="21" viewBox="0 0 20 21" fill="none" xmlns="http://www.w3.org/2000/svg">
                 <path d="M7.58404 20.0717V13.4218H5.52015V10.3657H7.58404V9.04906C7.58404 5.64517 9.12404 4.06906 12.464 4.06906C13.0963 4.06906 14.1879 4.19294 14.6363 4.31683V7.08517C14.4001 7.06128 13.9879 7.04906 13.4801 7.04906C11.8401 7.04906 11.2079 7.66906 11.2079 9.28517V10.3657H14.4763L13.9163 13.4213H11.2124V20.2934C16.1637 19.6937 20 15.4777 20 10.3657C20 4.84295 15.5228 0.365723 10 0.365723C4.47722 0.365723 0 4.84295 0 10.3657C0 15.0556 3.22813 18.991 7.58404 20.0717Z" fill="white" />
             </svg>
 

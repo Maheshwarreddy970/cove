@@ -43,7 +43,6 @@ export default function Footer() {
           </a>
           <a href={data.footer.socialmedia.facebook}>
             <icons.facebook></icons.facebook>
-            <icons.whitefacebook></icons.whitefacebook>
           </a>
         </div>
       </div>
