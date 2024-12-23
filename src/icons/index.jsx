@@ -57,19 +57,7 @@ export const icons = {
     },
     facebook: (props) => {
         return (
-            <svg
-                width="20"
-                height="21"
-                className="dark:fill-white dark:text-white fill-current"
-                viewBox="0 0 20 21"
-                xmlns="http://www.w3.org/2000/svg"
-            >
-                <path
-                    d="M7.58404 20.0717V13.4218H5.52015V10.3657H7.58404V9.04906C7.58404 5.64517 9.12404 4.06906 12.464 4.06906C13.0963 4.06906 14.1879 4.19294 14.6363 4.31683V7.08517C14.4001 7.06128 13.9879 7.04906 13.4801 7.04906C11.8401 7.04906 11.2079 7.66906 11.2079 9.28517V10.3657H14.4763L13.9163 13.4213H11.2124V20.2934C16.1637 19.6937 20 15.4777 20 10.3657C20 4.84295 15.5228 0.365723 10 0.365723C4.47722 0.365723 0 4.84295 0 10.3657C0 15.0556 3.22813 18.991 7.58404 20.0717Z"
-                    fill="currentColor"
-                />
-            </svg>
-
+            <svg stroke="currentColor" className="text-black size-[1.4rem] dark:text-white" fill="currentColor" stroke-width="0" viewBox="0 0 512 512" height="200px" width="200px" xmlns="http://www.w3.org/2000/svg"><path d="M504 256C504 119 393 8 256 8S8 119 8 256c0 123.78 90.69 226.38 209.25 245V327.69h-63V256h63v-54.64c0-62.15 37-96.48 93.67-96.48 27.14 0 55.52 4.84 55.52 4.84v61h-31.28c-30.8 0-40.41 19.12-40.41 38.73V256h68.78l-11 71.69h-57.78V501C413.31 482.38 504 379.78 504 256z"></path></svg>
         )
     },
     whitefacebook: (props) => {
