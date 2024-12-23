@@ -17,8 +17,8 @@ export default function CalltoAction() {
           ))}
         </div>
         <div className=' flex flex-col px-6 sm:px-0  sm:flex-row z-30 justify-center items-center gap-4 mt-[3.2rem]'>
-          <a href={data.herosection.buttonslinks.appstore} className='z-30 text-base text-center w-full sm:w-auto font-semibold px-10 py-3  p-3 rounded-full border border-black bg-gradient-to-r from-[#6ACE57] to-[#07C8E6] hover:from-[#07C8E6] hover:to-[#6ACE57] active:from-[#07C8E6] active:to-[#6ACE57] transition-all duration-200 ease-in-out hover:scale-105 active:scale-100 flex gap-3 items-center'><icons.appleicon></icons.appleicon> Get it on App Store</a>
-          <a href={data.herosection.buttonslinks.playstore} className=' z-30 text-base text-center w-full sm:w-auto font-semibold px-10 py-3  p-3 rounded-full border  border-black bg-white text-black flex gap-3 items-center'><icons.playstoreicon></icons.playstoreicon> Get it on Play Store  </a>
+          <a href={data.herosection.buttonslinks.appstore} className='z-30 text-base text-center w-full sm:w-auto font-semibold px-10 py-3  p-3 rounded-full border border-black bg-gradient-to-r from-[#6ACE57] to-[#07C8E6] hover:from-[#07C8E6] hover:to-[#6ACE57] active:from-[#07C8E6] active:to-[#6ACE57] text-black flex gap-3 items-center transition-all ease-out duration-300'><icons.appleicon></icons.appleicon> Get it on App Store</a>
+          <a href={data.herosection.buttonslinks.playstore} className=' z-30 text-base text-center w-full sm:w-auto font-semibold px-10 py-3  p-3 rounded-full border  border-black bg-white text-black flex gap-3 items-center transition-all ease-out duration-300'><icons.playstoreicon></icons.playstoreicon> Get it on Play Store  </a>
         </div>
       </div>
 

@@ -19,7 +19,7 @@ export default function ThemeToggle() {
             <span className=' dark:hidden  p-2.5 rounded-full bg-white  flex justify-center'>
                 <icons.moonicon />
             </span>
-            <span className='hidden   p-2.5 rounded-full bg-white  dark:flex justify-center '>
+            <span className='hidden   p-[8px] rounded-full bg-white  dark:flex justify-center '>
                 <icons.sunicon className='  ' />
             </span>
         </button>

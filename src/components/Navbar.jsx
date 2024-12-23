@@ -36,7 +36,7 @@ export default function Nabbar() {
                 <div className=' md:flex  gap-4 hidden'>
 
                     <ThemeToggle></ThemeToggle>
-                    <a href={data.navigationbar.buttonslinks.gettheapp} className=' bg-black hover:bg-white hover:text-black  active:bg-black/20   hover:border-black hover:border  gap-2 rounded-[144px] py-2.5 px-8 text-base text-white font-bold'>
+                    <a href={data.navigationbar.buttonslinks.gettheapp} className=' bg-black hover:bg-white hover:text-black  active:bg-black/20   hover:border-black transition-all ease-out duration-300 border  gap-2 rounded-[144px] py-2.5 px-8 text-base text-white font-bold'>
                         Learn More
                     </a>
 
@@ -57,7 +57,7 @@ export default function Nabbar() {
                             {item.name}
                         </a>
                     ))}
-                     <a href={data.navigationbar.buttonslinks.gettheapp} className=' bg-black hover:bg-white hover:text-black  active:bg-black/20   hover:border-black hover:border  gap-2 rounded-[144px] py-2.5 px-8 text-base text-white font-bold'>
+                     <a href={data.navigationbar.buttonslinks.gettheapp} className=' bg-black hover:bg-white hover:text-black  active:bg-black/20   hover:border-black transition-all ease-out duration-300  gap-2 rounded-[144px] py-2.5 px-8 text-base text-white font-bold'>
                         Learn More
                     </a>
                 </div>
