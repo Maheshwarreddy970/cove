@@ -6,7 +6,7 @@ export const data = {
         description: "cove description",
         url: "https://cove your url",
         icon: "/logo.png",
-        thumbnail: "/thumbnail.png"
+        thumbnail: "/opengraphimage.png"
 
     },
     herosection: {
