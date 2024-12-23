@@ -11,11 +11,13 @@ export default {
     extend: {
       backgroundImage: {
         'custom-gradient': 'linear-gradient(180deg, #AFE0FF 0%, #82DCFF 51.72%)',
+        'custom-gradientbutton': `linear-gradient(0deg, #FFFFFF, #FFFFFF), linear-gradient(0deg, rgba(0, 0, 0, 0.05), rgba(0, 0, 0, 0.05))`,
       },
       colors: {
         background: "var(--background)",
         foreground: "var(--foreground)",
       },
+     
     },
   },
   plugins: [],

@@ -41,11 +41,13 @@ export default function Herosection() {
                     </div>
                 </div>
                 <div className='px-5 xl:px-0  flex flex-col sm:flex-row z-30 justify-center items-center gap-4 mt-[3.2rem]'>
-                    <a href={data.herosection.buttonslinks.appstore} className='z-30 w-full sm:w-auto text-base text-center font-semibold px-10 py-3  p-3 rounded-full border border-black bg-gradient-to-r from-[#6ACE57] to-[#07C8E6] flex gap-3 items-center'><icons.appleicon></icons.appleicon> Get it on App Store</a>
-                    <a href={data.herosection.buttonslinks.playstore} className=' z-30 w-full sm:w-auto text-base text-center font-semibold px-10 py-3  p-3 rounded-full border border-black bg-white  flex gap-3 items-center'><icons.playstoreicon></icons.playstoreicon> Get it on Play Store </a>
+                    <a href={data.herosection.buttonslinks.appstore} className='z-30 w-full sm:w-auto text-base text-center font-semibold px-10 py-3  p-3 rounded-full border border-black bg-gradient-to-r from-[#6ACE57] to-[#07C8E6]  hover:from-[#07C8E6] hover:to-[#6ACE57] active:from-[#6ACE57] active:to-[#07C8E6] transition-all duration-200 ease-in-out hover:scale-105 active:scale-100  flex gap-3 items-center'><icons.appleicon></icons.appleicon> Get it on App Store</a>
+                    <a href={data.herosection.buttonslinks.playstore} className=' z-30 w-full sm:w-auto text-base text-center font-semibold px-10 py-3  p-3 rounded-full border border-black bg-white  flex gap-3 items-center hover:bg-white/90  transition-all duration-200 ease-in-out'>
+                    <icons.playstoreicon></icons.playstoreicon> Get it on Play Store 
+                    </a>
                 </div>
                 <div className=' mt-5 flex flex-col items-center gap-4 h-[18rem] md:h-[28rem] '>
-                    <p className='font-semibold text-sm px-6 xl:px-0  z-30 text-white text-center dark'>{data.herosection.insurance}</p>
+                    <p className='font-semibold text-sm px-6 xl:px-0  z-30 text-white  text-center dark'>{data.herosection.insurance}</p>
                 </div>
                 <div
                     className=" absolute bg-white/5 top-[33%] blur-[74px] backdrop-blur-[44px] w-[110%] h-[8.875rem] left-[-1.875rem]"
