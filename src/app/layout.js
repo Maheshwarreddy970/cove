@@ -13,9 +13,9 @@ export const metadata = constructMetadata()
 
 export default function RootLayout({ children }) {
   return (
-    <html lang="en">
+    <html lang="en" className="!smoothscroll " suppressHydrationWarning>
       <body
-        className={`${montserrat.className}  `}
+        className={`${montserrat.className}   `}
       >
         <ThemeProvider
           attribute="class"

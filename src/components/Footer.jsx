@@ -1,3 +1,6 @@
+'use client'
+
+
 import React from 'react'
 import { icons } from '@/icons'
 import logo from '@/../public/logo.png'
@@ -8,6 +11,17 @@ import Smoothup from './smoothup'
 
 
 export default function Footer() {
+
+  const handleSmoothScroll = (id) => {
+    const element = document.querySelector(id);
+    if (element) {
+      element.scrollIntoView({
+        behavior: 'smooth',
+        block: 'start',
+      });
+    }
+  };
+
   return (
     <Smoothup className='px-6 py-6 md:px-20 md:py-10'>
       <div className=' flex flex-col md:flex-row md:justify-between gap-8 md:items-center w-full max-w-7xl mx-auto px-2 pb-6 '>
@@ -19,9 +33,13 @@ export default function Footer() {
         <div className='flex gap-6 font-normal text-black dark:text-white text-sm'>
           {
             data.footer.list.map((item, index) => (
-              <a href={item.href} key={index}>
+              <button
+                key={index}
+                onClick={() => handleSmoothScroll(item.href)}
+                className='hover:text-gray-700 transition-colors duration-200'
+              >
                 {item.name}
-              </a>
+              </button>
             )
             )
           }
