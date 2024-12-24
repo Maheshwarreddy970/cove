@@ -5,7 +5,7 @@ export const data = {
         title: "Cove",
         description: "More than Just a Finance App. Creative saving. Stash money on your island with decorations and unleash your creativity",
         url: "https://usecove.com/",
-        icon: "/logo.png",
+        icon: "https://cove-tau.vercel.app/favicon.ico",
         thumbnail: "https://cove-tau.vercel.app/opengraphimage.png"
 
     },
