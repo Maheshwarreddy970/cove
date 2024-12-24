@@ -42,7 +42,7 @@ export default function Navbar() {
                 <div className='md:flex gap-4 hidden'>
                     <ThemeToggle></ThemeToggle>
                     <Link
-                        href={data.navigationbar.buttonslinks.gettheapp}
+                        href={"#ctasection"}
                         className='bg-black hover:bg-white hover:text-black active:bg-black/20 hover:border-black transition-all ease-out duration-300 border gap-2 rounded-[144px] py-2.5 px-8 text-base text-white font-bold'
                     >
                         Learn More
@@ -68,7 +68,7 @@ export default function Navbar() {
                         </button>
                     ))}
                     <Link
-                        href={data.navigationbar.buttonslinks.gettheapp}
+                        href={"#ctasection"}
                         className='bg-black hover:bg-white hover:text-black active:bg-black/20 hover:border-black transition-all ease-out duration-300 gap-2 rounded-[144px] py-2.5 px-8 text-base text-white font-bold'
                     >
                         Learn More

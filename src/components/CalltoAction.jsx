@@ -8,7 +8,7 @@ import { motion } from 'framer-motion';
 
 export default function CalltoAction() {
   return (
-    <section className=' relative overflow-hidden bg-[#232526] dark:bg-[#FFFFF0]'>
+    <section id='ctasection' className=' relative overflow-hidden bg-[#232526] dark:bg-[#FFFFF0]'>
       <Smoothup className='  flex flex-col gap-6 text-white bg-[#232526] dark:bg-[#FFFFF0] dark:text-black my-36 lg:my-24 '>
         <h1 className='z-30 max-w-5xl mx-auto py-2 bg-gradient-to-r from-[#6ACE57] to-[#07C8E6]  inline-block text-transparent bg-clip-text md:text-[4.625rem] md:font-semibold md:leading-[4.625rem] text-center text-[2.75rem] font-semibold leading-[2.75rem]'>{data.calltoaction.heading}</h1>
         <p className=' px-4 md:max-w-sm z-30 mx-auto text-[1.5rem] font-semibold leading-[1.82875rem] text-center'>{data.calltoaction.subheading}</p>
