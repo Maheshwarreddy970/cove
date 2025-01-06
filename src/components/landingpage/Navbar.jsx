@@ -6,7 +6,7 @@ import Image from 'next/image';
 import { icons } from '@/icons';
 import { cn } from '@/lib/utils';
 import { data } from '@/data';
-import ThemeToggle from './ThemeToggle';
+import ThemeToggle from '../ThemeToggle';
 import Link from 'next/link';
 
 export default function Navbar() {

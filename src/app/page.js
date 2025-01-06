@@ -1,12 +1,12 @@
-import Benefits from "@/components/Benefits";
-import CalltoAction from "@/components/CalltoAction";
-import {Faq} from "@/components/Faq";
-import Footer from "@/components/Footer";
-import GettoKnowsection from "@/components/GettoKnowsection";
-import Herosection from "@/components/Herosection";
-import Logosection from "@/components/Logosection";
-import OldNew from "@/components/OldNew";
-import Howitworkssection from "@/components/Overview";
+import Benefits from "@/components/landingpage/Benefits";
+import CalltoAction from "@/components/landingpage/CalltoAction";
+import { Faq } from "@/components/landingpage/Faq";
+import Footer from "@/components/landingpage/Footer";
+import GettoKnowsection from "@/components/landingpage/GettoKnowsection";
+import Herosection from "@/components/landingpage/Herosection";
+import Logosection from "@/components/landingpage/Logosection";
+import OldNew from "@/components/landingpage/OldNew";
+import Howitworkssection from "@/components/landingpage/Overview";
 
 export default function Home() {
   return (

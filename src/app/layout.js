@@ -1,7 +1,7 @@
 
 import { Montserrat } from "next/font/google";
 import "./globals.css";
-import Navbar from "@/components/Navbar";
+import Navbar from "@/components/landingpage/Navbar";
 import { constructMetadata } from "@/lib/utils";
 import { ThemeProvider } from "next-themes";
 
