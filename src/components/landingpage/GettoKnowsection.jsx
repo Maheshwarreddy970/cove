@@ -16,8 +16,8 @@ export default function GettoKnowsection() {
         <h1 className=' text-[2.5rem] font-bold leading-[3rem] lg:text-[46px] lg:leading-[55.2px] tracking-[-0.02em] text-center decoration-skip-ink-none text-[#171717] dark:text-white'>{data.gettoknowussection.heading}</h1>
         <p className='font-montserrat text-[18px] font-medium leading-[21.6px] tracking-[-0.02em] text-center decoration-skip-ink-none text-black dark:text-white'>{data.gettoknowussection.subheading}</p>
       </Smoothup>
-      <Smoothup className='flex  flex-col lg:flex-row max-w-6xl xl:max-w-7xl mx-auto gap-6 mt-16 '>
-        <div className=' w-[33%] h-[37.875rem] p-6 border border-black/25 dark:border-white/20 rounded-3xl flex flex-col gap-6'>
+      <Smoothup className='flex  flex-col px-4 lg:flex-row max-w-6xl xl:max-w-7xl mx-auto gap-6 mt-16 '>
+        <div className=' w-full lg:w-[33%] h-[37.875rem] p-6 border border-black/25 dark:border-white/20 rounded-3xl flex flex-col gap-6'>
           <div className=' border dark:border-white/20 rounded-2xl pb-4 bg-[#232526] dark:bg-[#FFFFF0] flex flex-col gap-1 h-[20.25rem] overflow-hidden '>
             <div className=' h-[14rem] relative flex justify-center items-center  mb-4 w-full rounded-xl overflow-hidden bg-gradient-to-tr from-[#7ACF3F] to-[#00C8F0]'>
               <Image alt='profile' src={'/26bf5cc897b6afd75047839f469cf94d.png'} width={339} height={512} className=' mt-[6.7rem] ml-2 filter grayscale '></Image>
@@ -36,7 +36,7 @@ export default function GettoKnowsection() {
             </p>
           </div>
         </div>
-        <div className=' w-[33%] h-[37.875rem] p-6 border border-black/25 dark:border-white/20 rounded-3xl flex flex-col gap-6'>
+        <div className=' w-full lg:w-[33%] h-[37.875rem] p-6 border border-black/25 dark:border-white/20 rounded-3xl flex flex-col gap-6'>
           <div className=' border dark:border-white/20 rounded-2xl pb-4 bg-[#232526] dark:bg-[#FFFFF0] flex flex-col gap-1 h-[20.25rem] overflow-hidden '>
             <div className=' h-[14rem] relative flex justify-center items-center  mb-4 w-full rounded-xl overflow-hidden bg-gradient-to-tr from-[#7ACF3F] to-[#00C8F0]'>
               <Image alt='profile' src={'/bc2a4de54b820d272e954dcc2cc6c9ff.png'} width={370} height={370} className='  filter grayscale '></Image>
@@ -55,7 +55,7 @@ export default function GettoKnowsection() {
             </p>
           </div>
         </div>
-        <div className=' w-[33%] h-[37.875rem] p-6 border border-black/25 dark:border-white/20 rounded-3xl flex flex-col gap-6'>
+        <div className=' w-full lg:w-[33%] h-[37.875rem] p-6 border border-black/25 dark:border-white/20 rounded-3xl flex flex-col gap-6'>
           <div className=' border dark:border-white/20 rounded-2xl pb-4 bg-[#232526] dark:bg-[#FFFFF0] flex flex-col gap-1 h-[20.25rem] overflow-hidden '>
             <div className=' h-[14rem] relative flex justify-center items-center  mb-4 w-full rounded-xl overflow-hidden bg-gradient-to-tr from-[#7ACF3F] to-[#00C8F0]'>
               <Image alt='profile' src={'/f9955633519c8702601b67ce0b1f4d00.png'} width={215} height={322} className='mt-6  filter grayscale '></Image>
