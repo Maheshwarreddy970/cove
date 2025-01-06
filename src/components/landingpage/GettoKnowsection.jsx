@@ -31,7 +31,7 @@ export default function GettoKnowsection() {
               <icons.aboutlinkeninicon></icons.aboutlinkeninicon>
               <icons.aboutxicon></icons.aboutxicon>
             </div>
-            <p className=' text-start font-medium text-lg dark:text-white'>
+            <p className=' text-start font-medium text-lg dark:text-white text-black'>
             Nullam duis convallis sem cras scelerisque aliquam. Sodales volutpat pulvinar amet curabitur pellentesque vestibulum turpis a at. Suspendisse lorem nisi lobortis donec ornare feugiat penatibus 
             </p>
           </div>
@@ -50,7 +50,7 @@ export default function GettoKnowsection() {
               <icons.aboutlinkeninicon></icons.aboutlinkeninicon>
               <icons.aboutxicon></icons.aboutxicon>
             </div>
-            <p className=' text-start font-medium text-lg dark:text-white'>
+            <p className=' text-start font-medium text-lg dark:text-white text-black'>
             Nullam duis convallis sem cras scelerisque aliquam. Sodales volutpat pulvinar amet curabitur pellentesque vestibulum turpis a at. Suspendisse lorem nisi lobortis donec ornare feugiat penatibus 
             </p>
           </div>
@@ -69,7 +69,7 @@ export default function GettoKnowsection() {
               <icons.aboutlinkeninicon></icons.aboutlinkeninicon>
               <icons.aboutxicon></icons.aboutxicon>
             </div>
-            <p className=' text-start font-medium text-lg dark:text-white'>
+            <p className=' text-start font-medium text-lg dark:text-white text-black'>
             Nullam duis convallis sem cras scelerisque aliquam. Sodales volutpat pulvinar amet curabitur pellentesque vestibulum turpis a at. Suspendisse lorem nisi lobortis donec ornare feugiat penatibus 
             </p>
           </div>
