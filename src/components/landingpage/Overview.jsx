@@ -15,17 +15,17 @@ const adventpro = Advent_Pro({ weight: '700', subsets: ["latin"] });
 export default function Howitworkssection() {
   const [activeImage, setActiveImage] = useState(0)
 
-  // useEffect(() => {
-  //   const intervalId = setInterval(() => {
-  //     setActiveImage((prevActiveImage) => {
-  //       return (prevActiveImage + 1) % 3;
-  //     });
-  //   }, 9000)
+  useEffect(() => {
+    const intervalId = setInterval(() => {
+      setActiveImage((prevActiveImage) => {
+        return (prevActiveImage + 1) % 3;
+      });
+    }, 9000)
 
-  //   return () => {
-  //     clearInterval(intervalId)
-  //   }
-  // }, [])
+    return () => {
+      clearInterval(intervalId)
+    }
+  }, [])
 
   return (
     <section id='howitworkssection' className={` bg-[#232526] dark:bg-[#FFFFF0] dark:text-black text-white py-24 lg:px-5 overflow-hidden`}>
