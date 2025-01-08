@@ -124,22 +124,22 @@ export const data = {
     footer: {
         list: [
             {
-                name: 'Why Us?',
+                name: 'How it works',
                 href: '#howitworkssection'
-            },
-            {
-                name: 'Services',
-                href: '#beforeaftersection'
             },
             {
                 name: 'Benefits',
                 href: '#benefitssection'
+            },
+            {
+                name: 'About us',
+                href: '#aboutus'
 
             },
             {
-                name: 'FAQ',
+                name: 'FAQs',
                 href: '#faqsection'
-            },
+            }
         ],
         privacypolicy:"https://usecove.com/privacy-policy.pdf",
         socialmedia: {
@@ -151,21 +151,21 @@ export const data = {
     navigationbar: {
         list: [
             {
-                name: 'Stats',
-                href: '#herosection'
-            },
-            {
                 name: 'How it works',
                 href: '#howitworkssection'
             },
             {
-                name: 'Industries',
-                href: '#beforeaftersection'
+                name: 'Benefits',
+                href: '#benefitssection'
+            },
+            {
+                name: 'About us',
+                href: '#aboutus'
 
             },
             {
-                name: 'Features',
-                href: '#benefitssection'
+                name: 'FAQs',
+                href: '#faqsection'
             }
         ],
         buttonslinks: {

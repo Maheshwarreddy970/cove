@@ -15,17 +15,17 @@ const adventpro = Advent_Pro({ weight: '700', subsets: ["latin"] });
 export default function Howitworkssection() {
   const [activeImage, setActiveImage] = useState(0)
 
-  useEffect(() => {
-    const intervalId = setInterval(() => {
-      setActiveImage((prevActiveImage) => {
-        return (prevActiveImage + 1) % 3;
-      });
-    }, 9000)
+  // useEffect(() => {
+  //   const intervalId = setInterval(() => {
+  //     setActiveImage((prevActiveImage) => {
+  //       return (prevActiveImage + 1) % 3;
+  //     });
+  //   }, 9000)
 
-    return () => {
-      clearInterval(intervalId)
-    }
-  }, [])
+  //   return () => {
+  //     clearInterval(intervalId)
+  //   }
+  // }, [])
 
   return (
     <section id='howitworkssection' className={` bg-[#232526] dark:bg-[#FFFFF0] dark:text-black text-white py-24 lg:px-5 overflow-hidden`}>
@@ -94,19 +94,11 @@ export default function Howitworkssection() {
                 {
                   activeImage === 1 && (
                     <motion.span
-                      initial={{ height: 0 }}
-                      animate={{ height: "100%" }}
-                      exit={{ height: 0 }}
-                      transition={{ ease: "linear", duration: 0.5, type: 'spring', stiffness: 100 }}
+                
                       className=" h-full w-full overflow-hidden  flex justify-center"
                     >
-                      <motion.div
-                        initial={{ x: 50 }}
-                        animate={{ x: 0 }}
-                        transition={{ duration: 2, ease: 'easeIn', type: 'spring', stiffness: 100 }}
-                      >
-                        <img src={'/howitworktreadingcard.png'} alt='howitworktreadingcard' className=' h-full ' />
-                      </motion.div>
+                  
+                        <img src={'/howitworkimage2.png'} alt='howitworktreadingcard' className=' size-[30rem] scale-150 mt-20 ' />
                     </motion.span>
                   )}
               </AnimatePresence>
@@ -170,7 +162,8 @@ export default function Howitworkssection() {
                 transition={{ duration: 2, ease: 'easeIn', type: 'spring', stiffness: 100 }}
                 className=' relative'
               >
-                <img src={'/howitworktreadingcard.png'} alt='howitworktreadingcard' className=' h-full  ' />
+                
+                <img  src={'/howitworkimage.png'}  alt='howitworktreadingcard' className=' h-full  ' />
               </motion.div>
             }
 
