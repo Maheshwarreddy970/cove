@@ -143,9 +143,9 @@ export default function Howitworkssection() {
             </div>}
           </>
         </div>
-        <div className='hidden lg:block w-full h-full lg:h-[38rem] 2xl:h-[35.25rem] lg:w-[63%] bg-[#191A1B]  border border-white/20  rounded-3xl relative '>
+        <div className='hidden lg:block w-full h-full lg:h-[38rem] 2xl:h-[35.25rem] lg:w-[63%] bg-[#191A1B] dark:border-black/5  border border-white/20  rounded-3xl relative '>
           <Image src={Bush} alt='Bush' className=' w-[17.92rem] h-[14.66rem] absolute top-[45%] -right-64 -translate-x-1/2 -translate-y-1/2 object-cover' />
-          <div className=' bg-[#191A1B] border flex justify-center overflow-hidden border-white/20 dark:border-black/10 dark:bg-[#F6F6E9]  rounded-3xl h-full w-full z-10 relative'>
+          <div className=' bg-[#191A1B] border flex justify-center overflow-hidden border-white/20 dark:border-black/5 dark:bg-[#F6F6E9]  rounded-3xl h-full w-full z-10 relative'>
             {activeImage === 0 &&
               <motion.div
                 initial={{ opacity: 0, y: 150 }}
