@@ -96,6 +96,7 @@ export const data = {
               instagram: "https://www.instagram.com/use.cove/",
               linkedin: "https://www.linkedin.com/company/usecove/",
               x: "https://www.instagram.com/use.cove/",
+              mt:'mt-4'
             },
             {
               name: 'David Wolfenden',
@@ -108,6 +109,7 @@ export const data = {
               instagram: "https://www.instagram.com/use.cove/",
               linkedin: "https://www.linkedin.com/company/usecove/",
               x: "https://www.instagram.com/use.cove/",
+              mt:'mt-10'
             },
             {
               name: 'David Wolfenden',
@@ -120,6 +122,7 @@ export const data = {
               instagram: "https://www.instagram.com/use.cove/",
               linkedin: "https://www.linkedin.com/company/usecove/",
               x: "https://www.instagram.com/use.cove/",
+              mt:''
             },
             {
               name: 'David Wolfenden',
@@ -132,18 +135,20 @@ export const data = {
               instagram: "https://www.instagram.com/use.cove/",
               linkedin: "https://www.linkedin.com/company/usecove/",
               x: "https://www.instagram.com/use.cove/",
+              mt:'mt-6'
             },
             {
               name: 'David Wolfenden',
               username: '@username',
               title: 'Chief Executive Officer',
               description: 'Nullam duis convallis sem cras scelerisque aliquam. Sodales volutpat pulvinar amet curabitur pellentesque vestibulum turpis a at. Suspendisse lorem nisi lobortis donec ornare feugiat penatibus',
-              image: '/f787c4bec2dcb3b531b2ae0574d92ce5.png',
-              width: 305,
-              height: 305,
+              image: '/4815b5a8ef25caaac72d29e70de907ef.png',
+              width: 266,
+              height: 266,
               instagram: "https://www.instagram.com/use.cove/",
               linkedin: "https://www.linkedin.com/company/usecove/",
               x: "https://www.instagram.com/use.cove/",
+              mt:'mt-1'
             },
           ]
     },

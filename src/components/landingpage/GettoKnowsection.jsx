@@ -4,6 +4,7 @@ import BonsaiTree from '@/../public/orginal.png'
 import { data } from '@/data'
 import Smoothup from './smoothup'
 import { icons } from '@/icons'
+import { cn } from '@/lib/utils'
 
 
 export default function GettoKnowsection() {
@@ -25,7 +26,7 @@ export default function GettoKnowsection() {
           <div key={index} className="w-full h-[33.875rem] overflow-hidden mt-10 p-6 border border-black/25 dark:border-white/20 rounded-3xl flex flex-col gap-6">
             <div className="border dark:border-white/20 rounded-2xl pb-4 bg-[#232526] dark:bg-[#FFFFF0] flex flex-col gap-1 h-[21.3rem] overflow-hidden">
               <div className="h-[16rem] relative flex justify-center items-center mb-4 w-full rounded-xl overflow-hidden bg-gradient-to-tr from-[#7ACF3F] to-[#00C8F0]">
-                <Image alt="profile" src={profile.image} width={profile.width} height={profile.height} className="mt-4 filter grayscale" />
+                <Image alt="profile" src={profile.image} width={profile.width} height={profile.height} className={cn("filter grayscale",profile.mt)} />
               </div>
               <p className="text-2xl font-semibold text-center text-white dark:text-[#232526]">{profile.name}</p>
               <p className="text-center font-semibold text-white dark:text-[#232526] text-base opacity-70">{profile.username}</p>
