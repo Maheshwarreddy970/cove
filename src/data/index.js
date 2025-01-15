@@ -150,6 +150,19 @@ export const data = {
               x: "https://www.instagram.com/use.cove/",
               mt:'mt-1'
             },
+            {
+              name: 'David Wolfenden',
+              username: '@username',
+              title: 'Chief Executive Officer',
+              description: 'Nullam duis convallis sem cras scelerisque aliquam. Sodales volutpat pulvinar amet curabitur pellentesque vestibulum turpis a at. Suspendisse lorem nisi lobortis donec ornare feugiat penatibus',
+              image: '/e5cc74cd24f887a1dd540e1ee4a84b30.png',
+              width:232,
+              height: 217,
+              instagram: "https://www.instagram.com/use.cove/",
+              linkedin: "https://www.linkedin.com/company/usecove/",
+              x: "https://www.instagram.com/use.cove/",
+              mt:'mt-1'
+            },
           ]
     },
     faqsection: {
